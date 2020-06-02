@@ -1,0 +1,55 @@
+.landing{
+    background-image: url(../Assets/black2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    position: relative;
+    
+}
+.logo {
+    position: absolute;
+    top: 15%;
+    left:7%;
+    margin-left: 5%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size:4vw;
+  }
+  .instagram{
+    position: absolute;
+    top:30%;
+    right:3%;
+}
+.facebook{
+    position: absolute;
+    top:40%;
+    right:3%;
+}
+.linkedin{
+    position: absolute;
+    top:50%;
+    right:3%;
+}
+
+.youtube{
+    position: absolute;
+    top:60%;
+    right:3%;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+@media only screen and (max-width: 500px) {
+    .instagram .facebook .linkedin .youtube{
+        display:none;
+    }
+  }

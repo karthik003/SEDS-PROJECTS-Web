@@ -1,0 +1,17 @@
+.navtext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size:14px;
+    color:white;
+}
+
+.logo {
+    position: absolute;
+    left:7%;
+    margin-left: 5%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size:4vw;
+  }
