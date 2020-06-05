@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/SEDS-PROJECTS-Web/static/css/main.9725410d.chunk.css",
-    "main.js": "/SEDS-PROJECTS-Web/static/js/main.3945044f.chunk.js",
-    "main.js.map": "/SEDS-PROJECTS-Web/static/js/main.3945044f.chunk.js.map",
+    "main.js": "/SEDS-PROJECTS-Web/static/js/main.544c7724.chunk.js",
+    "main.js.map": "/SEDS-PROJECTS-Web/static/js/main.544c7724.chunk.js.map",
     "runtime-main.js": "/SEDS-PROJECTS-Web/static/js/runtime-main.73b466c9.js",
     "runtime-main.js.map": "/SEDS-PROJECTS-Web/static/js/runtime-main.73b466c9.js.map",
     "static/css/2.3d67f493.chunk.css": "/SEDS-PROJECTS-Web/static/css/2.3d67f493.chunk.css",
-    "static/js/2.31f37fa4.chunk.js": "/SEDS-PROJECTS-Web/static/js/2.31f37fa4.chunk.js",
-    "static/js/2.31f37fa4.chunk.js.map": "/SEDS-PROJECTS-Web/static/js/2.31f37fa4.chunk.js.map",
+    "static/js/2.dde021a5.chunk.js": "/SEDS-PROJECTS-Web/static/js/2.dde021a5.chunk.js",
+    "static/js/2.dde021a5.chunk.js.map": "/SEDS-PROJECTS-Web/static/js/2.dde021a5.chunk.js.map",
     "index.html": "/SEDS-PROJECTS-Web/index.html",
-    "precache-manifest.a86a287decdfa8fe5d6279230c6abb71.js": "/SEDS-PROJECTS-Web/precache-manifest.a86a287decdfa8fe5d6279230c6abb71.js",
+    "precache-manifest.62b4761266342705b2b90d0a13ab2851.js": "/SEDS-PROJECTS-Web/precache-manifest.62b4761266342705b2b90d0a13ab2851.js",
     "service-worker.js": "/SEDS-PROJECTS-Web/service-worker.js",
     "static/css/2.3d67f493.chunk.css.map": "/SEDS-PROJECTS-Web/static/css/2.3d67f493.chunk.css.map",
     "static/css/main.9725410d.chunk.css.map": "/SEDS-PROJECTS-Web/static/css/main.9725410d.chunk.css.map",
-    "static/js/2.31f37fa4.chunk.js.LICENSE.txt": "/SEDS-PROJECTS-Web/static/js/2.31f37fa4.chunk.js.LICENSE.txt",
+    "static/js/2.dde021a5.chunk.js.LICENSE.txt": "/SEDS-PROJECTS-Web/static/js/2.dde021a5.chunk.js.LICENSE.txt",
     "static/media/1.jpeg": "/SEDS-PROJECTS-Web/static/media/1.6eb936fd.jpeg",
     "static/media/ardra.png": "/SEDS-PROJECTS-Web/static/media/ardra.c2b42821.png",
     "static/media/astro.webp": "/SEDS-PROJECTS-Web/static/media/astro.ba447a7e.webp",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.73b466c9.js",
     "static/css/2.3d67f493.chunk.css",
-    "static/js/2.31f37fa4.chunk.js",
+    "static/js/2.dde021a5.chunk.js",
     "static/css/main.9725410d.chunk.css",
-    "static/js/main.3945044f.chunk.js"
+    "static/js/main.544c7724.chunk.js"
   ]
 }
