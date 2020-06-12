@@ -4,8 +4,8 @@ class About extends Component {
     render() {
         return (
             <div style={{backgroundColor:"black"}}>
-                <div style={{margin:"0 15% 0 15%"}}>
-                        <div className="aboutus">About us</div>
+                <div className="about">
+                        <div className="aboutus">ABOUT US</div>
                         <div style={{textAlign:"justify",color:"white"}}>
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit, sed do eiusmod tempor incididunt
@@ -80,7 +80,7 @@ class About extends Component {
                             sint occaecat cupidatat non proident, sunt in culpa
                             qui officia deserunt mollit anim id est laborum.
                         </div>
-                </div><br /><br /><br /><br /><br /><br /><br /><br />
+                </div><br /><br /><br />
             </div>
         )
     }

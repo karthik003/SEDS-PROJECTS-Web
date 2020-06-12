@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "Orbitron";
+    src: url("../Fonts/Orbitron/Orbitron-VariableFont_wght.ttf");
+  }
+  
+  .text{
+    font-family: 'Orbitron';
+  }
+  
+
+
+
 @media only screen and (min-width:100px) and (max-width: 1140px) {
     .astro{
 

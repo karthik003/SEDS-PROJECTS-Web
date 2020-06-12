@@ -1,8 +1,10 @@
-.navtext{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
-    font-size:14px;
-    color:white;
+@font-face {
+    font-family: "Orbitron";
+    src: url("../Fonts/Orbitron/Orbitron-VariableFont_wght.ttf");
+}
+
+.text{
+    font-family: 'Orbitron';
 }
 
 .logo {
@@ -15,3 +17,16 @@
     font-weight: 500;
     font-size:4vw;
   }
+
+.active1{
+    border-bottom: 1px solid white;
+}
+.active2{
+    border-bottom: 1px solid white;
+}.active3{
+    border-bottom: 1px solid white;
+}.active4{
+    border-bottom: 1px solid white;
+}.active5{
+    border-bottom: 1px solid white;
+}

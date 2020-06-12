@@ -1,19 +1,23 @@
+@font-face {
+  font-family: "Orbitron";
+  src: url("../Fonts/Orbitron/Orbitron-VariableFont_wght.ttf");
+}
+
+.text{
+  font-family: 'Orbitron';
+}
+
 .teams{
     color:white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Orbitron';
     font-weight: 500;
     font-size:8vw;
     text-align: center;
 }
-.ardra:hover{
+.hovercard:hover{
     -ms-transform: scale(1.3); /* IE 9 */
   -webkit-transform: scale(1.3); /* Safari 3-8 */
   transform: scale(1.3); 
   z-index: 1;
 }
-.vyadh:hover{
-    -ms-transform: scale(1.3); /* IE 9 */
-  -webkit-transform: scale(1.3); /* Safari 3-8 */
-  transform: scale(1.3); 
-  z-index: 1;   
-}
+

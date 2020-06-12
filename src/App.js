@@ -13,12 +13,7 @@ function App() {
     <div style={{backgroundColor:"black"}}>
     
       <Navgbar />
-      <Landingpage />
-      <About />
-      <Teams />
-      <Conquests />
-      <Contact />
-      <Footer />
+     
     </div>
   );
 }

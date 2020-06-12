@@ -2,16 +2,20 @@ import React, { Component } from 'react'
 import { Form,Button } from 'react-bootstrap';
 import contact from '../Assets/astro.webp';
 import './Contact.css';
+import Fade from 'react-reveal/Fade';
+
 class Contact extends Component {
     render() {
         return (
             <div className=""style={{backgroundColor:"black"}}>
-                <div className="astro">
-                    {/*<img src={contact} style={{width:"30%"}}/>*/}
-                </div>
+                  
+                    <div className="astro">
+                        {/*<img src={contact} style={{width:"30%"}}/>*/}
+                    </div>
+               
                 <div className="form">
                 <Form style={{marginRight:"15%",marginLeft:"15%"}}>
-                        <div style={{color:"white",fontSize:"600%",fontFamily:"Roboto, sans-serif",fontWeight:"700",textAlign:"left"}}>
+                        <div className="text" style={{color:"white",fontSize:"600%",fontWeight:"700",textAlign:"left"}}>
                             <img className="astro" src={contact} style={{width:"30%"}}/>
                            Drop us a line
                         </div><br />

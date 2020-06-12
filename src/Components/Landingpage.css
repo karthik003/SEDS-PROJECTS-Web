@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Orbitron";
+    src: url("../Fonts/Orbitron/Orbitron-VariableFont_wght.ttf");
+}
+
+.text{
+    font-family: 'Orbitron';
+}
 .landing{
     background-image: url(../Assets/black2.jpg);
     background-attachment: fixed;
@@ -8,6 +16,11 @@
     position: relative;
     
 }
+.stars1{
+    background-image: url(../Assets/stars.webp);
+    height:100vh;
+}
+
 .logo {
     position: absolute;
     top: 15%;

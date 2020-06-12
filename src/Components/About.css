@@ -1,7 +1,33 @@
+@font-face {
+    font-family: "Orbitron";
+    src: url("../Fonts/Orbitron/Orbitron-VariableFont_wght.ttf");
+}
+
+
 .aboutus{
     color:white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Orbitron';
     font-weight: 500;
     font-size:8vw;
     text-align: center;
 }
+@media only screen and (min-width:1200px) and (max-width: 1600px) {
+    .about{
+        margin: 0 150px 0 150px 
+    }
+  }
+  @media only screen and (min-width:900px) and (max-width: 1199px) {
+    .about{
+        margin: 0 130px 0 130px 
+    }
+  }
+  @media only screen and (min-width:600px) and (max-width: 900px) {
+    .about{
+        margin: 0 100px 0 100px 
+    }
+  }
+  @media only screen and (max-width:600px)  {
+    .about{
+        margin: 0 50px 0 50px 
+    }
+  }
