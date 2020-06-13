@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SEDS-PROJECTS-Web/static/css/main.8f630a8f.chunk.css",
-    "main.js": "/SEDS-PROJECTS-Web/static/js/main.85ef3360.chunk.js",
-    "main.js.map": "/SEDS-PROJECTS-Web/static/js/main.85ef3360.chunk.js.map",
+    "main.js": "/SEDS-PROJECTS-Web/static/js/main.c8570f21.chunk.js",
+    "main.js.map": "/SEDS-PROJECTS-Web/static/js/main.c8570f21.chunk.js.map",
     "runtime-main.js": "/SEDS-PROJECTS-Web/static/js/runtime-main.73b466c9.js",
     "runtime-main.js.map": "/SEDS-PROJECTS-Web/static/js/runtime-main.73b466c9.js.map",
     "static/css/2.0a9eabb4.chunk.css": "/SEDS-PROJECTS-Web/static/css/2.0a9eabb4.chunk.css",
     "static/js/2.403ba943.chunk.js": "/SEDS-PROJECTS-Web/static/js/2.403ba943.chunk.js",
     "static/js/2.403ba943.chunk.js.map": "/SEDS-PROJECTS-Web/static/js/2.403ba943.chunk.js.map",
     "index.html": "/SEDS-PROJECTS-Web/index.html",
-    "precache-manifest.6aa6249bafc94e649357110226fbc810.js": "/SEDS-PROJECTS-Web/precache-manifest.6aa6249bafc94e649357110226fbc810.js",
+    "precache-manifest.2835059efef3c98fe0fc3711c0eb71ae.js": "/SEDS-PROJECTS-Web/precache-manifest.2835059efef3c98fe0fc3711c0eb71ae.js",
     "service-worker.js": "/SEDS-PROJECTS-Web/service-worker.js",
     "static/css/2.0a9eabb4.chunk.css.map": "/SEDS-PROJECTS-Web/static/css/2.0a9eabb4.chunk.css.map",
     "static/css/main.8f630a8f.chunk.css.map": "/SEDS-PROJECTS-Web/static/css/main.8f630a8f.chunk.css.map",
@@ -31,6 +31,6 @@
     "static/css/2.0a9eabb4.chunk.css",
     "static/js/2.403ba943.chunk.js",
     "static/css/main.8f630a8f.chunk.css",
-    "static/js/main.85ef3360.chunk.js"
+    "static/js/main.c8570f21.chunk.js"
   ]
 }
