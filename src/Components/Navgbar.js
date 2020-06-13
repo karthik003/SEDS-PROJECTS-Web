@@ -3,9 +3,8 @@ import './Navgbar.css'
 import { Nav,Navbar } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'antd/dist/antd.css'; 
-import { Button } from 'antd';
 import seds from '../Assets/seds-white.png';
-import { Link, animateScroll as scroll, Element } from "react-scroll";
+import { Link } from "react-scroll";
 import Landingpage from './Landingpage';
 import About from './About';
 import Contact from './Contact';
@@ -19,7 +18,7 @@ class Navgbar extends Component {
             <div>  
             <Navbar collapseOnSelect expand="lg" style={{backgroundColor:"#111111"}} fixed="top"> 
                 <Navbar.Brand href="#home" style={{height:"100%"}}>
-                <Link activeClass="" to="landing" spy={true} smooth={true}duration={500}> <img  src={seds} style={{width:"70px"}}/> </Link>
+                <Link activeClass="" to="landing" spy={true} smooth={true}duration={500}> <img  src={seds} style={{width:"70px"}} alt="seds logo"/> </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{color:"red"}} />
                 <Navbar.Collapse className="col-md-pull-3" id="responsive-navbar-nav"style={{justifyContent:"center"}}>

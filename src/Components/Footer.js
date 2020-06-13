@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { BrowserRouter as Router,Link } from "react-router-dom";
 class Footer extends Component {
     render() {
         return (
@@ -22,22 +22,12 @@ class Footer extends Component {
                                 <div class="col-md-12">
 
                                     <div style={{width:"100%",textAlign:"center",display:"inline-block",color:"white"}}>
-
-                                            <a class=" mr-4" >
-                                            <FontAwesomeIcon icon={['fab', 'facebook']}  size="2x" />
-                                            </a>
-                                            <a class=" mr-4"h>
-                                            <FontAwesomeIcon icon={['fab', 'twitter']} size="2x"  />
-                                            </a>
-                                            <a class=" mr-4" >
-                                            <FontAwesomeIcon icon={['fab', 'instagram']} size="2x"/>
-                                            </a>
-                                            <a class=" mr-4">
-                                            <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x"  />
-                                            </a>
-                                            <a class=" mr-4">
-                                            <FontAwesomeIcon icon={['fab', 'youtube']} size="2x"  />
-                                            </a>
+                                        <Router>
+                                          <span className="mr-4"><Link to="/instagram" ><FontAwesomeIcon icon={['fab', 'instagram']} size="2x"style={{color:"white"}} alt="instagram"/></Link></span>
+                                          <span className="mr-4"><Link to="/facebook" ><FontAwesomeIcon icon={['fab', 'facebook']} size="2x"style={{color:"white"}} alt="instagram"/></Link></span>
+                                          <span className="mr-4"><Link to="/linkedin" ><FontAwesomeIcon icon={['fab', 'linkedin']} size="2x"style={{color:"white"}} alt="instagram"/></Link></span>
+                                          <span className="mr-4"><Link to="/youtube" ><FontAwesomeIcon icon={['fab', 'youtube']} size="2x"style={{color:"white"}} alt="instagram"/></Link></span>
+                                        </Router>
 
                                     </div>
 
@@ -46,8 +36,7 @@ class Footer extends Component {
                             </div>
 
 
-                            <div class="footer-copyright text-center py-3" style={{width:"100%",marginBottom:"0px"}} >Made with ❤️ by
-                            <a href=""> SEDS VIT PROJECTS</a>
+                            <div class="footer-copyright text-center py-3" style={{width:"100%",marginBottom:"0px"}} >Made with love by  SEDS VIT PROJECTS
                             </div>
 
                             </div>

@@ -13,19 +13,19 @@ class Conquests extends Component {
             <div class="jumbotron container" style={{width:"75%",backgroundColor:"black"}}><br /><br /><br />
             <Carousel >
                 <div style={{width:"100%",textAlign:"center",display:"inline-box"}}>
-                    <img src={drone} style={{width:"100%",height:"100%"}}/>
+                    <img src={drone} style={{width:"100%",height:"100%"}} alt="drone1"/>
                 </div>
                 <div style={{width:"100%",textAlign:"center",display:"inline-box",justifyContent:"center"}}>
-                    <img src={rover} style={{width:"100%"}} />
+                    <img src={rover} style={{width:"100%"}} alt="rover1"/>
                 </div>
                 <div style={{width:"100%",textAlign:"center",display:"inline-box",justifyContent:"center"}}>
-                    <img src={drone2} style={{width:"100%"}}/>
+                    <img src={drone2} style={{width:"100%"}} alt="drone2"/>
                 </div>
                 <div style={{width:"100%",textAlign:"center",display:"inline-box",justifyContent:"center"}}>
-                    <img src={rover2} style={{width:"100%"}}/>
+                    <img src={rover2} style={{width:"100%"}} alt="rover2"/>
                 </div>
                 <div style={{width:"100%",textAlign:"center",display:"inline-box",justifyContent:"center"}}>
-                    <img src={drone3} style={{width:"100%"}}/>
+                    <img src={drone3} style={{width:"100%"}} alt="drone3"/>
                 </div>
                 
             </Carousel>
