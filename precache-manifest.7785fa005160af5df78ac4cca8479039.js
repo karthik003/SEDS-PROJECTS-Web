@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5defc3795cc4ecf2e763e5acfee8f55",
+    "revision": "28178fc618854b6e2827123e69b11ffe",
     "url": "/SEDS-PROJECTS-Web/index.html"
   },
   {
-    "revision": "fd76c461dae01ed1a513",
+    "revision": "339a9526c6346c40f4f2",
     "url": "/SEDS-PROJECTS-Web/static/css/2.0a9eabb4.chunk.css"
   },
   {
-    "revision": "5683335b0f6254da5427",
+    "revision": "883bf8621c2c38230d2a",
     "url": "/SEDS-PROJECTS-Web/static/css/main.8f630a8f.chunk.css"
   },
   {
-    "revision": "fd76c461dae01ed1a513",
-    "url": "/SEDS-PROJECTS-Web/static/js/2.403ba943.chunk.js"
+    "revision": "339a9526c6346c40f4f2",
+    "url": "/SEDS-PROJECTS-Web/static/js/2.2095416e.chunk.js"
   },
   {
     "revision": "8bb757413c38ce564bf5d6ba97eb4669",
-    "url": "/SEDS-PROJECTS-Web/static/js/2.403ba943.chunk.js.LICENSE.txt"
+    "url": "/SEDS-PROJECTS-Web/static/js/2.2095416e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5683335b0f6254da5427",
-    "url": "/SEDS-PROJECTS-Web/static/js/main.c8570f21.chunk.js"
+    "revision": "883bf8621c2c38230d2a",
+    "url": "/SEDS-PROJECTS-Web/static/js/main.1bd9fb4e.chunk.js"
   },
   {
     "revision": "7def09d9a008e7520739",
@@ -44,28 +44,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SEDS-PROJECTS-Web/static/media/black2.c9ac7de6.jpg"
   },
   {
-    "revision": "bd34804fe84a669a70e94e5e54f8467d",
-    "url": "/SEDS-PROJECTS-Web/static/media/drone.bd34804f.jpeg"
+    "revision": "1523c916ba8bbf92b98ed01be665973f",
+    "url": "/SEDS-PROJECTS-Web/static/media/drone.1523c916.png"
   },
   {
     "revision": "00600fb5d3e26e13325e06fb3d1b15f4",
     "url": "/SEDS-PROJECTS-Web/static/media/drone2.00600fb5.jpg"
   },
   {
-    "revision": "7dc86a13d9a8a7ee2efc0956c0de384a",
-    "url": "/SEDS-PROJECTS-Web/static/media/drone3.7dc86a13.jpeg"
+    "revision": "180cef69e1ba910dfa37b7de229ade06",
+    "url": "/SEDS-PROJECTS-Web/static/media/drone3.180cef69.png"
   },
   {
-    "revision": "205810b058927b81713c0b8331c62576",
-    "url": "/SEDS-PROJECTS-Web/static/media/loader1.205810b0.gif"
+    "revision": "fdb384ce6e41b7a76f2460a471de8d18",
+    "url": "/SEDS-PROJECTS-Web/static/media/rover.fdb384ce.png"
   },
   {
-    "revision": "539de1e72a729678bd98343f83d2300d",
-    "url": "/SEDS-PROJECTS-Web/static/media/rover.539de1e7.jpeg"
-  },
-  {
-    "revision": "44455502068cd8fe40c1b42ed4dc305d",
-    "url": "/SEDS-PROJECTS-Web/static/media/rover2.44455502.jpeg"
+    "revision": "ceca670a36c733362fae5d5975272828",
+    "url": "/SEDS-PROJECTS-Web/static/media/rover2.ceca670a.png"
   },
   {
     "revision": "15165acc6aa088491f365c598363eb7d",

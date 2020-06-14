@@ -1,36 +1,35 @@
 {
   "files": {
     "main.css": "/SEDS-PROJECTS-Web/static/css/main.8f630a8f.chunk.css",
-    "main.js": "/SEDS-PROJECTS-Web/static/js/main.c8570f21.chunk.js",
-    "main.js.map": "/SEDS-PROJECTS-Web/static/js/main.c8570f21.chunk.js.map",
+    "main.js": "/SEDS-PROJECTS-Web/static/js/main.1bd9fb4e.chunk.js",
+    "main.js.map": "/SEDS-PROJECTS-Web/static/js/main.1bd9fb4e.chunk.js.map",
     "runtime-main.js": "/SEDS-PROJECTS-Web/static/js/runtime-main.73b466c9.js",
     "runtime-main.js.map": "/SEDS-PROJECTS-Web/static/js/runtime-main.73b466c9.js.map",
     "static/css/2.0a9eabb4.chunk.css": "/SEDS-PROJECTS-Web/static/css/2.0a9eabb4.chunk.css",
-    "static/js/2.403ba943.chunk.js": "/SEDS-PROJECTS-Web/static/js/2.403ba943.chunk.js",
-    "static/js/2.403ba943.chunk.js.map": "/SEDS-PROJECTS-Web/static/js/2.403ba943.chunk.js.map",
+    "static/js/2.2095416e.chunk.js": "/SEDS-PROJECTS-Web/static/js/2.2095416e.chunk.js",
+    "static/js/2.2095416e.chunk.js.map": "/SEDS-PROJECTS-Web/static/js/2.2095416e.chunk.js.map",
     "index.html": "/SEDS-PROJECTS-Web/index.html",
-    "precache-manifest.2835059efef3c98fe0fc3711c0eb71ae.js": "/SEDS-PROJECTS-Web/precache-manifest.2835059efef3c98fe0fc3711c0eb71ae.js",
+    "precache-manifest.7785fa005160af5df78ac4cca8479039.js": "/SEDS-PROJECTS-Web/precache-manifest.7785fa005160af5df78ac4cca8479039.js",
     "service-worker.js": "/SEDS-PROJECTS-Web/service-worker.js",
     "static/css/2.0a9eabb4.chunk.css.map": "/SEDS-PROJECTS-Web/static/css/2.0a9eabb4.chunk.css.map",
     "static/css/main.8f630a8f.chunk.css.map": "/SEDS-PROJECTS-Web/static/css/main.8f630a8f.chunk.css.map",
-    "static/js/2.403ba943.chunk.js.LICENSE.txt": "/SEDS-PROJECTS-Web/static/js/2.403ba943.chunk.js.LICENSE.txt",
+    "static/js/2.2095416e.chunk.js.LICENSE.txt": "/SEDS-PROJECTS-Web/static/js/2.2095416e.chunk.js.LICENSE.txt",
     "static/media/Teams.css": "/SEDS-PROJECTS-Web/static/media/Orbitron-VariableFont_wght.c641d3e9.ttf",
     "static/media/ardra(notext).png": "/SEDS-PROJECTS-Web/static/media/ardra(notext).769a7221.png",
     "static/media/astro.webp": "/SEDS-PROJECTS-Web/static/media/astro.ba447a7e.webp",
     "static/media/Landingpage.css": "/SEDS-PROJECTS-Web/static/media/stars.a4cce183.webp",
-    "static/media/drone.jpeg": "/SEDS-PROJECTS-Web/static/media/drone.bd34804f.jpeg",
+    "static/media/drone.png": "/SEDS-PROJECTS-Web/static/media/drone.1523c916.png",
     "static/media/drone2.jpg": "/SEDS-PROJECTS-Web/static/media/drone2.00600fb5.jpg",
-    "static/media/drone3.jpeg": "/SEDS-PROJECTS-Web/static/media/drone3.7dc86a13.jpeg",
-    "static/media/loader1.gif": "/SEDS-PROJECTS-Web/static/media/loader1.205810b0.gif",
-    "static/media/rover.jpeg": "/SEDS-PROJECTS-Web/static/media/rover.539de1e7.jpeg",
-    "static/media/rover2.jpeg": "/SEDS-PROJECTS-Web/static/media/rover2.44455502.jpeg",
+    "static/media/drone3.png": "/SEDS-PROJECTS-Web/static/media/drone3.180cef69.png",
+    "static/media/rover.png": "/SEDS-PROJECTS-Web/static/media/rover.fdb384ce.png",
+    "static/media/rover2.png": "/SEDS-PROJECTS-Web/static/media/rover2.ceca670a.png",
     "static/media/seds-white.png": "/SEDS-PROJECTS-Web/static/media/seds-white.15165acc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.73b466c9.js",
     "static/css/2.0a9eabb4.chunk.css",
-    "static/js/2.403ba943.chunk.js",
+    "static/js/2.2095416e.chunk.js",
     "static/css/main.8f630a8f.chunk.css",
-    "static/js/main.c8570f21.chunk.js"
+    "static/js/main.1bd9fb4e.chunk.js"
   ]
 }
