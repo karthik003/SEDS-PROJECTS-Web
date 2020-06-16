@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/SEDS-PROJECTS-Web/static/css/main.8f630a8f.chunk.css",
-    "main.js": "/SEDS-PROJECTS-Web/static/js/main.1bd9fb4e.chunk.js",
-    "main.js.map": "/SEDS-PROJECTS-Web/static/js/main.1bd9fb4e.chunk.js.map",
+    "main.css": "/SEDS-PROJECTS-Web/static/css/main.aa4c587f.chunk.css",
+    "main.js": "/SEDS-PROJECTS-Web/static/js/main.b9fba92b.chunk.js",
+    "main.js.map": "/SEDS-PROJECTS-Web/static/js/main.b9fba92b.chunk.js.map",
     "runtime-main.js": "/SEDS-PROJECTS-Web/static/js/runtime-main.73b466c9.js",
     "runtime-main.js.map": "/SEDS-PROJECTS-Web/static/js/runtime-main.73b466c9.js.map",
     "static/css/2.0a9eabb4.chunk.css": "/SEDS-PROJECTS-Web/static/css/2.0a9eabb4.chunk.css",
-    "static/js/2.2095416e.chunk.js": "/SEDS-PROJECTS-Web/static/js/2.2095416e.chunk.js",
-    "static/js/2.2095416e.chunk.js.map": "/SEDS-PROJECTS-Web/static/js/2.2095416e.chunk.js.map",
+    "static/js/2.d856ae4d.chunk.js": "/SEDS-PROJECTS-Web/static/js/2.d856ae4d.chunk.js",
+    "static/js/2.d856ae4d.chunk.js.map": "/SEDS-PROJECTS-Web/static/js/2.d856ae4d.chunk.js.map",
     "index.html": "/SEDS-PROJECTS-Web/index.html",
-    "precache-manifest.7785fa005160af5df78ac4cca8479039.js": "/SEDS-PROJECTS-Web/precache-manifest.7785fa005160af5df78ac4cca8479039.js",
+    "precache-manifest.4a49dad0950c5133cc7a22fd7b1ab752.js": "/SEDS-PROJECTS-Web/precache-manifest.4a49dad0950c5133cc7a22fd7b1ab752.js",
     "service-worker.js": "/SEDS-PROJECTS-Web/service-worker.js",
     "static/css/2.0a9eabb4.chunk.css.map": "/SEDS-PROJECTS-Web/static/css/2.0a9eabb4.chunk.css.map",
-    "static/css/main.8f630a8f.chunk.css.map": "/SEDS-PROJECTS-Web/static/css/main.8f630a8f.chunk.css.map",
-    "static/js/2.2095416e.chunk.js.LICENSE.txt": "/SEDS-PROJECTS-Web/static/js/2.2095416e.chunk.js.LICENSE.txt",
+    "static/css/main.aa4c587f.chunk.css.map": "/SEDS-PROJECTS-Web/static/css/main.aa4c587f.chunk.css.map",
+    "static/js/2.d856ae4d.chunk.js.LICENSE.txt": "/SEDS-PROJECTS-Web/static/js/2.d856ae4d.chunk.js.LICENSE.txt",
     "static/media/Teams.css": "/SEDS-PROJECTS-Web/static/media/Orbitron-VariableFont_wght.c641d3e9.ttf",
     "static/media/ardra(notext).png": "/SEDS-PROJECTS-Web/static/media/ardra(notext).769a7221.png",
     "static/media/astro.webp": "/SEDS-PROJECTS-Web/static/media/astro.ba447a7e.webp",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.73b466c9.js",
     "static/css/2.0a9eabb4.chunk.css",
-    "static/js/2.2095416e.chunk.js",
-    "static/css/main.8f630a8f.chunk.css",
-    "static/js/main.1bd9fb4e.chunk.js"
+    "static/js/2.d856ae4d.chunk.js",
+    "static/css/main.aa4c587f.chunk.css",
+    "static/js/main.b9fba92b.chunk.js"
   ]
 }
