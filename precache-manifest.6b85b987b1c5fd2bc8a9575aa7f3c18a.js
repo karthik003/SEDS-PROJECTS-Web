@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9741e012857a5f4c9e788599432227f3",
+    "revision": "9a04163a47baf49545cd08d777892435",
     "url": "/SEDS-PROJECTS-Web/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SEDS-PROJECTS-Web/static/css/2.0a9eabb4.chunk.css"
   },
   {
-    "revision": "f8b4a8fc692caff5e161",
+    "revision": "7e5aa782e744a8830ef6",
     "url": "/SEDS-PROJECTS-Web/static/css/main.49e37966.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SEDS-PROJECTS-Web/static/js/2.d856ae4d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f8b4a8fc692caff5e161",
-    "url": "/SEDS-PROJECTS-Web/static/js/main.936802b3.chunk.js"
+    "revision": "7e5aa782e744a8830ef6",
+    "url": "/SEDS-PROJECTS-Web/static/js/main.e79d970c.chunk.js"
   },
   {
     "revision": "7def09d9a008e7520739",
