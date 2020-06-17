@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Navgbar from './Components/Navgbar';
-import loader from './Assets/loader1.gif'
 import ReactLoading from "react-loading";
 import "bootstrap/dist/css/bootstrap.css";
 class App extends React.Component{

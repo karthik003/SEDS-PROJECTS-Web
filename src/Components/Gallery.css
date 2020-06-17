@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Orbitron";
+    src: url("../Fonts/Orbitron/Orbitron-VariableFont_wght.ttf");
+  }
+  
+  .text{
+    font-family: 'Orbitron';
+    font-display: swap;
+  }
+  
+.gallery{
+    color:white;
+    font-family: 'Orbitron';
+    font-weight: 500;
+    font-size:8vw;
+    text-align: center;
+    font-display: swap;
+}

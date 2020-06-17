@@ -5,6 +5,7 @@
 
 .text{
     font-family: 'Orbitron';
+    font-display: swap;
 }
 
 .logo {
@@ -16,6 +17,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
     font-size:4vw;
+    font-display: swap; 
   }
 
 .active1{

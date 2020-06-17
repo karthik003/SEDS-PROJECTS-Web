@@ -5,6 +5,7 @@
 
 .text{
     font-family: 'Orbitron';
+    font-display: swap;
 }
 .landing{
     background-image: url(../Assets/black2.jpg);

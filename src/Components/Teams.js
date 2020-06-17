@@ -48,7 +48,7 @@ class Teams extends Component {
                                     <Card.Img variant="top" src={ardra} alt="ardra logo" />
                                     <Card.Body>
                                         <Card.Title>ARDRA</Card.Title>
-                                        <Card.Text style={{textAlign:"justify",fontFamily:"Ariel",color:"black"}}>
+                                        <Card.Text style={{textAlign:"justify",fontFamily:"Ariel",color:"black",wordSpacing:"-2.5px"}}>
                                         Team Ardra, the drone team of SEDS VIT Projects,
                                          is a group of technically enthusiastic students 
                                          working together to design and create Unmanned Aerial Vehicles that 
@@ -60,7 +60,7 @@ class Teams extends Component {
                             
                                             <h2>ARDRA</h2>
                                             <p style={{fontFamily:"Ariel",color:"black"}}>
-                                            Team Ardra, the drone team of SEDS VIT Projects, is a group of technically
+                                            Team Ardra, the Aviation team of SEDS VIT Projects, is a group of technically
                                             enthusiastic students working together to design and create UAVs that are
                                             built tough and work smart.Since its inception in 2014, Team Ardra has put
                                             in the most dedicated work to build unmanned aerial vehicles, that have
@@ -80,7 +80,7 @@ class Teams extends Component {
                                     <Card.Img variant="top" src={vyadh} alt="vyadh logo"/>
                                     <Card.Body>
                                         <Card.Title>VYADH</Card.Title>
-                                        <Card.Text style={{textAlign:"justify",fontFamily:"Ariel",color:"black"}}>
+                                        <Card.Text style={{textAlign:"justify",fontFamily:"Ariel",color:"black",wordSpacing:"-2px"}}>
                                         Team Vyadh is synonymous to collaboration,
                                          cooperation and coordination.
                                          We put our hearts and souls in developing and 
