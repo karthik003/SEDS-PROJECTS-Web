@@ -19,7 +19,7 @@ class Landingpage extends Component {
 
              {/*   <div className="logo" style={{width:"100%"}}><img src={seds} style={{width:"150px",display:"block",marginLeft:"auto",marginRight:"auto"}}/> </div> */}
            <Router>
-                <div className="centered" style={{justifyContent:"center",width:"100%"}}><p className="text "style={{marginLeft:"70px",textAlign:"center",color:"white",fontSize:"250%",fontWeight:"650"}}>SEDS VIT PROJECTS</p></div>
+                <div className="centered" style={{justifyContent:"center",width:"100%"}}><p className="text "style={{textAlign:"center",color:"white",fontSize:"250%",fontWeight:"650"}}>SEDS VIT PROJECTS</p></div>
                 <Bounce bottom>  
                 <span className="instagram"><Link to="/instagram" ><FontAwesomeIcon icon={['fab', 'instagram']} size="2x"style={{color:"white"}} alt="instagram"/></Link></span>
                 <span className="facebook"><Link to="/facebook" ><FontAwesomeIcon icon={['fab', 'facebook']} size="2x"style={{color:"white"}} alt="facebook"/></Link></span>
