@@ -3,11 +3,11 @@ import './Landingpage.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-
+import ReactTypingEffect from 'react-typing-effect';
 import Bounce from 'react-reveal/Bounce';
 import config from 'react-reveal/globals';
 import { BrowserRouter as Router,Link, Route, Switch } from "react-router-dom";
-
+import rocket from '../Assets/rocket.png'
 config({ ssrFadeout: true });
 library.add(fab)
 
@@ -19,7 +19,7 @@ class Landingpage extends Component {
 
              {/*   <div className="logo" style={{width:"100%"}}><img src={seds} style={{width:"150px",display:"block",marginLeft:"auto",marginRight:"auto"}}/> </div> */}
            <Router>
-                <div className="centered" style={{justifyContent:"center",width:"100%"}}><p className="text"style={{textAlign:"center",color:"white",fontSize:"250%",fontWeight:"650"}}>SEDS VIT PROJECTS</p></div>
+                <div className="centered" style={{justifyContent:"center",width:"100%"}}><p className="text "style={{marginLeft:"70px",textAlign:"center",color:"white",fontSize:"250%",fontWeight:"650"}}>SEDS VIT PROJECTS</p></div>
                 <Bounce bottom>  
                 <span className="instagram"><Link to="/instagram" ><FontAwesomeIcon icon={['fab', 'instagram']} size="2x"style={{color:"white"}} alt="instagram"/></Link></span>
                 <span className="facebook"><Link to="/facebook" ><FontAwesomeIcon icon={['fab', 'facebook']} size="2x"style={{color:"white"}} alt="facebook"/></Link></span>
@@ -34,8 +34,12 @@ class Landingpage extends Component {
                     <Route path='/youtube' component={() => { window.location.href = 'https://www.youtube.com/channel/UCvD51YDPQT0Vs3r_Fcthurw';return null;}}/>
                     </Switch>
             </Router>
-        
-           
+            
+            <div className="think" style={{position:"relative",width:"100%",height:"50%",textAlign:"center",fontSize:"150%",color:"white",top:"250px"}}>
+                <ReactTypingEffect speed={100} eraseDelay={2000} typingDelay={500} text={[ "Think", "Infinite" ]} /> 
+            </div>
+            <div style={{position:"relative",top:"30vh"}}>
+            </div>
             </div>
 
         )
