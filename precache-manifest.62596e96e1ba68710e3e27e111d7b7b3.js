@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a04163a47baf49545cd08d777892435",
+    "revision": "c0f481e7cba2482ef5dc8586e9a7de63",
     "url": "/SEDS-PROJECTS-Web/index.html"
   },
   {
-    "revision": "aa32dc09e424155115d4",
+    "revision": "6d451c76784f13d984b3",
     "url": "/SEDS-PROJECTS-Web/static/css/2.0a9eabb4.chunk.css"
   },
   {
-    "revision": "7e5aa782e744a8830ef6",
-    "url": "/SEDS-PROJECTS-Web/static/css/main.49e37966.chunk.css"
+    "revision": "ae9fd6321c60249e45b9",
+    "url": "/SEDS-PROJECTS-Web/static/css/main.487e6186.chunk.css"
   },
   {
-    "revision": "aa32dc09e424155115d4",
-    "url": "/SEDS-PROJECTS-Web/static/js/2.d856ae4d.chunk.js"
+    "revision": "6d451c76784f13d984b3",
+    "url": "/SEDS-PROJECTS-Web/static/js/2.29128af5.chunk.js"
   },
   {
     "revision": "8bb757413c38ce564bf5d6ba97eb4669",
-    "url": "/SEDS-PROJECTS-Web/static/js/2.d856ae4d.chunk.js.LICENSE.txt"
+    "url": "/SEDS-PROJECTS-Web/static/js/2.29128af5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e5aa782e744a8830ef6",
-    "url": "/SEDS-PROJECTS-Web/static/js/main.e79d970c.chunk.js"
+    "revision": "ae9fd6321c60249e45b9",
+    "url": "/SEDS-PROJECTS-Web/static/js/main.af616525.chunk.js"
   },
   {
     "revision": "7def09d9a008e7520739",
