@@ -15,7 +15,6 @@ class Landingpage extends Component {
     render() {
         return (
             <div className="landing">
-                <div className="stars1" width="50%" alt="stars"> 
 
 
              {/*   <div className="logo" style={{width:"100%"}}><img src={seds} style={{width:"150px",display:"block",marginLeft:"auto",marginRight:"auto"}}/> </div> */}
@@ -35,7 +34,6 @@ class Landingpage extends Component {
                     <Route path='/youtube' component={() => { window.location.href = 'https://www.youtube.com/channel/UCvD51YDPQT0Vs3r_Fcthurw';return null;}}/>
                     </Switch>
             </Router>
-            </div>
         
            
             </div>

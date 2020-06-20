@@ -48,18 +48,10 @@ class Contact extends Component {
     render() {
         const{name,email,phone,message,submit}=this.state
         return (
-            <div style={{backgroundColor:"black"}}>
-                  
-                    <div className="astro">
-                        {/*<img src={contact} style={{width:"30%"}}/>*/}
-                    </div>
-               
+            <div style={{backgroundColor:"black"}}>     
+             <h1 className="text board" >Drop us a line</h1><br />
                 <div className="form" style={{textAlign:"left"}}>
                 <Form style={{marginRight:"15%",marginLeft:"15%"}} onSubmit={this.submitHandler}>
-                        <div className="text" style={{color:"white",fontSize:"600%",fontWeight:"700",textAlign:"left"}}>
-                            <img className="astro" src={contact} style={{width:"30%"}} alt="Astronaut"/>
-                           Drop us a line
-                        </div><br />
                             <Form.Group controlId="formName" >
                                 <Form.Label>Name</Form.Label>
                                 <Form.Control type="text" placeholder="Name" name="name" value={name} onChange={this.changeHandler}/>
@@ -94,7 +86,7 @@ class Contact extends Component {
                             <Modal classNames={{
                                 animationIn: 'customEnterAnimation',
                                 animationOut: 'customLeaveAnimation',
-                                }} animationDuration={1000}  open={submit} onClose={this.closeSubmit} blockScroll={false} center style={{border:"1px solid red"}}>
+                                }} animationDuration={1000}  open={submit} onClose={this.closeSubmit} blockScroll={false} center >
                             <br />
                             <h2 className="text">Thankyou for your response</h2>
                             
