@@ -48,16 +48,16 @@ class Contact extends Component {
     render() {
         const{name,email,phone,message,submit}=this.state
         return (
-            <div style={{backgroundColor:"black"}}>     
+            <div style={{backgroundColor:"#070A1A"}}>     
              <h1 className="text board" >Drop us a line</h1><br />
                 <div className="form" style={{textAlign:"left"}}>
                 <Form style={{marginRight:"15%",marginLeft:"15%"}} onSubmit={this.submitHandler}>
                             <Form.Group controlId="formName" >
-                                <Form.Label>Name</Form.Label>
+                                <Form.Label style={{color:"white"}}>Name</Form.Label>
                                 <Form.Control type="text" placeholder="Name" name="name" value={name} onChange={this.changeHandler}/>
                             </Form.Group>
                             <Form.Group controlId="formBasicEmail">
-                                <Form.Label>Email address</Form.Label>
+                                <Form.Label style={{color:"white"}}>Email address</Form.Label>
                                 <Form.Control type="email" placeholder="Enter email" name="email" value={email} onChange={this.changeHandler}/>
                                 <Form.Text className="text-muted">
                                 We'll never share your email with anyone else.
@@ -66,15 +66,15 @@ class Contact extends Component {
 
 
                             <Form.Group controlId="formBasicPhone">
-                                <Form.Label>Phone Number</Form.Label>
+                                <Form.Label style={{color:"white"}}>Phone Number</Form.Label>
                                 <Form.Control type="integer" placeholder="Phone Number" name="phone" value={phone} onChange={this.changeHandler}/>
                                 <Form.Text className="text-muted">
-                                We'll never share your phone number with anyone else.
+                                We'll never share your phone with anyone else.
                                 </Form.Text>
                             </Form.Group>
 
                             <Form.Group controlId="formBasicMessage">
-                                <Form.Label>Message</Form.Label>
+                                <Form.Label style={{color:"white"}}>Message</Form.Label>
                                 <Form.Control type="text" placeholder="Message" name="message" value={message} onChange={this.changeHandler}/>
                                 
                             </Form.Group><br />

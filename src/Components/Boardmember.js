@@ -8,7 +8,7 @@ import { BrowserRouter as Router,Link, Route, Switch } from "react-router-dom";
 class Boardmember extends Component {
     render() {
         return (
-            <div>
+            <div >
                  <Col style={{margin:"20px 0 20px 0",textAlign:"center"}}>    
                            <Zoom> 
                                 <Card style={{ width: '200px',display:"inline-block" ,border:"2px solid white"}}>

@@ -6,7 +6,7 @@ import Boardmember from './Boardmember';
 class Board extends Component {
     render() {
         return (
-            <div>            <br /><br /> <br /><br /> 
+            <div style={{backgroundColor:"#070A1A"}}>            <br /><br /> <br /><br /> 
                  <h1 className="text board" >THE BOARD</h1>
                 <br /><br /><br />
                 <Row style={{margin:"0 5% 0 5%",justifyContent:"center"}} >

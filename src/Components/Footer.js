@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <>
-                 <div class="jumbotron" style={{color:"white",marginBottom:"0px",width:"100%",backgroundColor:"black"}}>
+                 <div class="jumbotron" style={{color:"white",marginBottom:"0px",width:"100%",backgroundColor:"#070A1A"}}>
 
                             <div class="row justify-content-center ">
 

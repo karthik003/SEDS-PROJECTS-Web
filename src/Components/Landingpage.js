@@ -36,7 +36,7 @@ class Landingpage extends Component {
             </Router>
             
             <div className="think" style={{position:"relative",width:"100%",height:"50%",textAlign:"center",fontSize:"150%",color:"white",top:"250px"}}>
-                <ReactTypingEffect speed={100} eraseDelay={2000} typingDelay={500} text={[ "Think", "Infinite" ]} /> 
+                <ReactTypingEffect speed={150} eraseDelay={2000} typingDelay={500} text={[ "Think", "Infinite" ]} /> 
             </div>
             <div style={{position:"relative",top:"30vh"}}>
             </div>

@@ -37,7 +37,7 @@ class Teams extends Component {
         const { ardraopen,vyadhopen } = this.state;
         return (
             <>
-                <div style={{textAlign:"center",backgroundColor:"black"}}>
+                <div style={{textAlign:"center",backgroundColor:"#070A1A"}}>
                <br/><br/><br/><br/>
 
                     <h1 className="teams text" >TEAMS</h1>

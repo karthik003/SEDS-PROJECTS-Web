@@ -26,12 +26,12 @@ render() {
   return (
     <div className="App">
    { this.state.Loading ?
-   (<div style={{display:"flex",alignItems:"center",width:"100%",backgroundColor:"black",height:"100vh",justifyContent:"center"}}>
+   (<div style={{display:"flex",alignItems:"center",width:"100%",color:"black",height:"100vh",justifyContent:"center"}}>
    <ReactLoading type={"bars"} color={"white"}/>
    </div>)
     
     :
-    (<div style={{backgroundColor:"black"}}> 
+    (<div style={{color:"#070A1A"}}> 
           <Navgbar />
     </div>)}
     </div> 

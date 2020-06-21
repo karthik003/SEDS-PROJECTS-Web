@@ -3,7 +3,7 @@ import './About.css';
 class About extends Component {
     render() {
         return (
-            <div style={{backgroundColor:"black"}}>
+            <div style={{backgroundColor:"#070A1A"}}>
                 <div className="about">
                         <div className="aboutus">ABOUT US</div>
                         <div style={{textAlign:"justify",color:"white",fontSize:"20px"}}>

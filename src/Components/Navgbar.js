@@ -14,10 +14,20 @@ import Board from './Board';
 import Footer from './Footer';
 
 class Navgbar extends Component {
+    state = {
+        navBackground: " "
+      };
+      componentDidMount() {
+        document.addEventListener("scroll", () => {
+          const backgroundcolor = window.scrollY < 500 ? " " : "#12162C";
+    
+          this.setState({ navBackground: backgroundcolor });
+        });
+      }    
     render() {
         return (
             <div>  
-            <Navbar collapseOnSelect expand="lg" style={{backgroundColor:"#0B0B0D"}} fixed="top"> 
+            <Navbar collapseOnSelect expand="lg" fixed="top" style={{backgroundColor: `${this.state.navBackground}`}}> 
                 <Navbar.Brand href="#home" style={{height:"100%"}}>
                 <Link activeClass="" to="landing" spy={true} smooth={true}duration={500}> <img  src={seds} style={{width:"70px"}} alt="seds logo"/> </Link>
                 </Navbar.Brand>
@@ -31,12 +41,12 @@ class Navgbar extends Component {
                     </Navbar.Collapse>
                 </Navbar>
                
-                <div id="landing"><Landingpage /></div>
-                <div id="about"><br /><br /><br /><br /><About /></div>
-                <div id="teams"><br /><Teams /></div>
-                <div id="conquests"><br /><Gallery /></div>
-                <div id="board"><Board /></div>
-                <div id="contact"><br /><br /><br /><br /><Contact /></div>
+                <div id="landing" style={{backgroundColor:"#070A1A"}}><Landingpage /></div>
+                <div id="about" style={{backgroundColor:"#070A1A"}}><br /><br /><br /><br /><About /></div>
+                <div id="teams" style={{backgroundColor:"#070A1A"}}><br /><Teams /></div>
+                <div id="conquests" style={{backgroundColor:"#070A1A"}}><br /><Gallery /></div>
+                <div id="board" style={{backgroundColor:"#070A1A"}}><Board /></div>
+                <div id="contact" style={{backgroundColor:"#070A1A"}}><br /><br /><br /><br /><Contact /></div>
                 <Footer />
             </div>
         )
