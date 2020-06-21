@@ -14,25 +14,34 @@ import Board from './Board';
 import Footer from './Footer';
 
 class Navgbar extends Component {
-    state = {
-        navBackground: " "
-      };
+    constructor(props) {
+        super(props)
+        this.listener = null;
+        this.state = {
+            navBackground: " "
+
+        }
+    }
+
       componentDidMount() {
-        document.addEventListener("scroll", () => {
+        this.listener=document.addEventListener("scroll", () => {
           const backgroundcolor = window.scrollY < 500 ? " " : "#12162C";
     
           this.setState({ navBackground: backgroundcolor });
         });
-      }    
+      } 
+      componentDidUpdate() {
+        document.removeEventListener("scroll", this.listener);
+      }   
     render() {
         return (
             <div>  
-            <Navbar collapseOnSelect expand="lg" fixed="top" style={{backgroundColor: `${this.state.navBackground}`}}> 
+            <Navbar collapseOnSelect expand="lg" fixed="top" style={{backgroundColor: `${this.state.navBackground}`}} className="navbarcol"> 
                 <Navbar.Brand href="#home" style={{height:"100%"}}>
                 <Link activeClass="" to="landing" spy={true} smooth={true}duration={500}> <img  src={seds} style={{width:"70px"}} alt="seds logo"/> </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{color:"red"}} />
-                <Navbar.Collapse className="col-md-pull-3" id="responsive-navbar-nav"style={{justifyContent:"center"}}>
+                <Navbar.Collapse className="col-md-pull-3" id="responsive-navbar-nav"style={{justifyContent:"center",position:"relative",right:"3%"}}>
                 <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"18px",fontWeight:"700"}}><Link activeClass="active1" to="landing" spy={true} smooth={true}duration={500}> HOME</Link></Nav.Link>
                 <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"18px",fontWeight:"700"}}><Link activeClass="active2" to="about" spy={true} smooth={true}duration={500} offset={30}> ABOUT</Link></Nav.Link>
                 <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"18px",fontWeight:"700"}}><Link activeClass="active3" to="teams" spy={true} smooth={true}duration={500} offset={37}> TEAMS</Link></Nav.Link>
