@@ -25,7 +25,7 @@ class Navgbar extends Component {
 
       componentDidMount() {
         this.listener=document.addEventListener("scroll", () => {
-          const backgroundcolor = window.scrollY < 500 ? " " : "#12162C";
+          const backgroundcolor = window.scrollY < 100 ? " " : "#12162C";
     
           this.setState({ navBackground: backgroundcolor });
         });
@@ -36,7 +36,7 @@ class Navgbar extends Component {
     render() {
         return (
             <div>  
-            <Navbar collapseOnSelect expand="lg" fixed="top" style={{backgroundColor: `${this.state.navBackground}`}} className="navbarcol"> 
+            <Navbar collapseOnSelect expand="lg" fixed="top" style={{backgroundColor: `${this.state.navBackground}`}} className="navbarcol shadow-lg "> 
                 <Navbar.Brand href="#home" style={{height:"100%"}}>
                 <Link activeClass="" to="landing" spy={true} smooth={true}duration={500}> <img  src={seds} style={{width:"70px"}} alt="seds logo"/> </Link>
                 </Navbar.Brand>
