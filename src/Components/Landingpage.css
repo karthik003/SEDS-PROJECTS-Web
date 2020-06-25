@@ -6,6 +6,10 @@
     font-family: "Pacifico";
     src: url("../Fonts/Pacifico-Regular.ttf");
 }
+@font-face {
+    font-family: "Cinzel";
+    src: url("../Fonts/Cinzel/Cinzel-Bold.ttf");
+}
 .think{
     font-family:'Pacifico';
 }
@@ -23,10 +27,7 @@
     position: relative;
     
 }
-.stars1{
-    background-image: url(../Assets/stars.webp);
-    height:100vh;
-}
+
 
 .logo {
     position: absolute;
@@ -39,34 +40,54 @@
     font-weight: 500;
     font-size:4vw;
   }
-  .instagram{
+  .youtube{
     position: absolute;
-    top:30%;
-    right:3%;
+    top:90%;
+    right:41%;
 }
 .facebook{
     position: absolute;
-    top:40%;
-    right:3%;
+    top:90%;
+    right:46%;
+
 }
 .linkedin{
     position: absolute;
-    top:50%;
-    right:3%;
+    top:90%;
+    right:51%;
+
 }
 
-.youtube{
+.instagram{
     position: absolute;
-    top:60%;
-    right:3%;
+    top:90%;
+    right:56%;
 }
+.reachout{
+    text-align: center;
+    color:white;
+    font-size: 230%;
 
+}
 .centered {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+  }
+  .icons{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    top:90%
+  }
+  .social{
+    display: inline-block;
+    vertical-align: middle;
+    margin:0 20px 0 20px;
   }
 @media only screen and (max-width: 500px) {
     .instagram .facebook .linkedin .youtube{

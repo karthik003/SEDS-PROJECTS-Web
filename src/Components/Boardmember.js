@@ -20,8 +20,8 @@ class Boardmember extends Component {
                                         <Router>
                                             <Row>
                                                 <Col  style={{textAlign:"center"}}>
-                                                <span className="linkedin"style={{marginRight:"150px"}} ><Link to={this.props.linkedin} ><FontAwesomeIcon icon={['fab', 'linkedin']}  size="2x"style={{color:"#1BB9CCA"}}alt="linkedin"/></Link></span>
-                                                <span className="instagram"style={{marginRight:"13px"}}><Link to={this.props.instagram} ><FontAwesomeIcon icon={['fab', 'instagram']}  size="2x"style={{color:"#FF7400"}}alt="instagram"/></Link></span>
+                                                <span className="linkedin"style={{marginRight:"50px"}} ><Link to={this.props.linkedin} ><FontAwesomeIcon icon={['fab', 'linkedin']}  size="2x"style={{color:"#1BB9CCA"}}alt="linkedin"/></Link></span>
+                                                <span className="instagram"style={{marginRight:"-90px"}}><Link to={this.props.instagram} ><FontAwesomeIcon icon={['fab', 'instagram']}  size="2x"style={{color:"#FF7400"}}alt="instagram"/></Link></span>
                                                 </Col>
                                             </Row>
                                             <Switch>

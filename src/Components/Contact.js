@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Form,Button } from 'react-bootstrap';
-import contact from '../Assets/astro.webp';
 import './Contact.css';
 import axios from 'axios';
 import "react-responsive-modal/styles.css";
