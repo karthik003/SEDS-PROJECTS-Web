@@ -25,7 +25,7 @@ class Navgbar extends Component {
 
       componentDidMount() {
         this.listener=document.addEventListener("scroll", () => {
-          const backgroundcolor = window.scrollY < 100 ? " " : "#12162C";
+          const backgroundcolor = window.scrollY < 100 ? " " : "#15072C";
     
           this.setState({ navBackground: backgroundcolor });
         });
@@ -38,15 +38,15 @@ class Navgbar extends Component {
             <div>  
             <Navbar collapseOnSelect expand="lg" fixed="top" style={{backgroundColor: `${this.state.navBackground}`}} className="navbarcol shadow-lg "> 
                 <Navbar.Brand href="#home" style={{height:"100%"}}>
-                <Link activeClass="" to="landing" spy={true} smooth={true}duration={500}> <img  src={seds} style={{width:"70px"}} alt="seds logo"/> </Link>
+                <Link activeClass="" to="landing" spy={true} smooth={true}duration={500}> <img  src={seds} style={{width:"100px"}} alt="seds logo"/> </Link>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{color:"red"}} />
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse className="col-md-pull-3" id="responsive-navbar-nav"style={{justifyContent:"center",position:"relative",right:"3%"}}>
-                <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"18px",fontWeight:"700"}}><Link activeClass="active1" to="landing" spy={true} smooth={true}duration={500}> HOME</Link></Nav.Link>
-                <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"18px",fontWeight:"700"}}><Link activeClass="active2" to="about" spy={true} smooth={true}duration={500} offset={30}> ABOUT</Link></Nav.Link>
-                <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"18px",fontWeight:"700"}}><Link activeClass="active3" to="teams" spy={true} smooth={true}duration={500} offset={37}> TEAMS</Link></Nav.Link>
-                <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"18px",fontWeight:"700"}}><Link activeClass="active4" to="conquests" spy={true} smooth={true}duration={500} offset={42}> GALLERY</Link></Nav.Link>
-                <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"18px",fontWeight:"700"}}><Link activeClass="active5" to="board" spy={true} smooth={true}duration={500} offset={32} > BOARD</Link></Nav.Link>
+                <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"19px",fontWeight:"700"}}><Link activeClass="active1" to="landing" spy={true} smooth={true}duration={500}> HOME</Link></Nav.Link>
+                <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"19px",fontWeight:"700"}}><Link activeClass="active2" to="about" spy={true} smooth={true}duration={500} > ABOUT</Link></Nav.Link>
+                <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"19px",fontWeight:"700"}}><Link activeClass="active3" to="teams" spy={true} smooth={true}duration={500} > TEAMS</Link></Nav.Link>
+                <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"19px",fontWeight:"700"}}><Link activeClass="active4" to="conquests" spy={true} smooth={true}duration={500}> GALLERY</Link></Nav.Link>
+                <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"19px",fontWeight:"700"}}><Link activeClass="active5" to="board" spy={true} smooth={true}duration={500} offset={-5} > BOARD</Link></Nav.Link>
                     </Navbar.Collapse>
                 </Navbar>
                
@@ -54,7 +54,7 @@ class Navgbar extends Component {
                 <div id="about" style={{backgroundColor:"#070A1A"}}><br /><br /><br /><br /><About /></div>
                 <div id="teams" style={{backgroundColor:"#070A1A"}}><br /><Teams /></div>
                 <div id="conquests" style={{backgroundColor:"#070A1A"}}><br /><Gallery /></div>
-                <div id="board" style={{backgroundColor:"#070A1A"}}><Board /></div>
+                <div id="board" style={{backgroundColor:"#070A1A"}}><br /><br /><Board /></div>
                 <div id="contact" style={{backgroundColor:"#070A1A"}}><br /><br /><br /><br /><Contact /></div>
                 <Footer />
             </div>
