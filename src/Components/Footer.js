@@ -36,7 +36,7 @@ class Footer extends Component {
 
                             </div>
 
-                            <div class="footer-copyright text-center py-3" style={{width:"100%",marginBottom:"0px"}} >Made with <span role="img">💖</span> by SEDS PROJECTS x VJK
+                            <div class="footer-copyright text-center py-3" style={{width:"100%",marginBottom:"0px"}} >Made with <span role="img">💖</span> by SEDS VIT PROJECTS x VJK
                             </div>
 
                             </div>
