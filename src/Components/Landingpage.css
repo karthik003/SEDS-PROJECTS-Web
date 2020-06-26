@@ -12,6 +12,7 @@
 }
 .think{
     font-family:'Pacifico';
+    top:"45%";
 }
 .text{
     font-family: 'Orbitron';
@@ -67,30 +68,33 @@
     text-align: center;
     color:white;
     font-size: 230%;
-
+    position: relative;
+    top: 65%;
 }
 .centered {
-    position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   .icons{
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 50px;
     text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    top:90%
+    top:68%;
   }
   .social{
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     margin:0 20px 0 20px;
   }
-@media only screen and (max-width: 500px) {
-    .instagram .facebook .linkedin .youtube{
-        display:none;
-    }
-  }
+@media only screen and (max-width: 400px) {
+.think{
+    top:30% !important;
+}
+.reachout{
+    top:50%
+}
+.icons{
+    top:55%
+}
+}

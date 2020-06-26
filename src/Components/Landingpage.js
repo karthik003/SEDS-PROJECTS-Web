@@ -16,8 +16,15 @@ class Landingpage extends Component {
             <div className="landing">
 
              {/*   <div className="logo" style={{width:"100%"}}><img src={seds} style={{width:"150px",display:"block",marginLeft:"auto",marginRight:"auto"}}/> </div> */}
-           <Router>
-                <div className="centered" style={{justifyContent:"center",width:"100%"}}><p className="text "style={{textAlign:"center",color:"white",fontSize:"250%",fontWeight:"650"}}>SEDS VIT PROJECTS</p></div>
+                <div className="centered" style={{justifyContent:"center",width:"100%",position:"relative"}}><p className="text "style={{textAlign:"center",color:"white",fontSize:"250%",fontWeight:"650"}}>SEDS VIT PROJECTS</p></div>
+                
+                <div className="think" style={{position:"relative",width:"100%",top:"45%",textAlign:"center",fontSize:"150%",color:"white"}}>
+                    <ReactTypingEffect speed={150} eraseDelay={2000} typingDelay={500} text={[ "Think", "Infinite" ]} /> 
+                </div>
+                <div className="reachout" style={{textAlign:"center"}}>
+                    <p  style={{display:"inline-box",fontFamily:"orbitron",marginBottom:"0px"}}>Reach out to us</p>
+                </div>
+            <Router>
                 <Bounce bottom>  
                     <div className="icons">
                         <span className="social"><Link to="/instagram" ><FontAwesomeIcon icon={['fab', 'instagram']} size="2x"style={{color:"white"}} alt="instagram"/></Link></span>
@@ -34,13 +41,9 @@ class Landingpage extends Component {
                     </Switch>
             </Router>
             
-            <div className="think" style={{position:"relative",width:"100%",height:"50%",textAlign:"center",fontSize:"150%",color:"white",top:"375px"}}>
-                <ReactTypingEffect speed={150} eraseDelay={2000} typingDelay={500} text={[ "Think", "Infinite" ]} /> 
-            </div>
+            
 
-            <div style={{textAlign:"center",marginTop:"30vh"}}>
-                <p className="reachout" style={{display:"inline-box",fontFamily:"orbitron"}}>Reach out to us</p>
-            </div>
+            
             </div>
 
         )
