@@ -25,7 +25,7 @@ class Navgbar extends Component {
 
       componentDidMount() {
         this.listener=document.addEventListener("scroll", () => {
-          const backgroundcolor = window.scrollY < 100 ? " " : "#15072C";
+          const backgroundcolor = window.scrollY < 100 ? " " : "#12162C";
     
           this.setState({ navBackground: backgroundcolor });
         });
@@ -51,7 +51,7 @@ class Navgbar extends Component {
                 </Navbar>
                
                 <div id="landing" style={{backgroundColor:"#070A1A"}}><Landingpage /></div>
-                <div id="about" style={{backgroundColor:"#070A1A"}}><br /><br /><br /><br /><About /></div>
+                <div id="about" style={{backgroundColor:"#070A1A"}}><br /><br /><br /><br /><br /><About /></div>
                 <div id="teams" style={{backgroundColor:"#070A1A"}}><br /><Teams /></div>
                 <div id="conquests" style={{backgroundColor:"#070A1A"}}><br /><Gallery /></div>
                 <div id="board" style={{backgroundColor:"#070A1A"}}><br /><br /><Board /></div>
