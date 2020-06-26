@@ -34,7 +34,7 @@ class Landingpage extends Component {
                     </Switch>
             </Router>
             
-            <div className="think" style={{position:"relative",width:"100%",height:"50%",textAlign:"center",fontSize:"150%",color:"white",top:"250px"}}>
+            <div className="think" style={{position:"relative",width:"100%",height:"50%",textAlign:"center",fontSize:"150%",color:"white",top:"375px"}}>
                 <ReactTypingEffect speed={150} eraseDelay={2000} typingDelay={500} text={[ "Think", "Infinite" ]} /> 
             </div>
 
