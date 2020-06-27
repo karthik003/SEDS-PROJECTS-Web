@@ -19,7 +19,7 @@ class Landingpage extends Component {
                 <div className="centered" style={{justifyContent:"center",width:"100%",position:"relative"}}><p className="text "style={{textAlign:"center",color:"white",fontSize:"250%",fontWeight:"650"}}>SEDS VIT PROJECTS</p></div>
                 
                 <div className="think" style={{position:"relative",width:"100%",top:"45%",textAlign:"center",fontSize:"150%",color:"white"}}>
-                    <ReactTypingEffect speed={150} eraseDelay={2000} typingDelay={500} text={[ "Think", "Infinite" ]} /> 
+                    <ReactTypingEffect speed={200} eraseDelay={1500} typingDelay={100} text={[ "Think", "Infinite" ]} /> 
                 </div>
                 <div className="reachout" style={{textAlign:"center"}}>
                     <p  style={{display:"inline-box",fontFamily:"orbitron",marginBottom:"0px"}}>Reach out to us</p>
