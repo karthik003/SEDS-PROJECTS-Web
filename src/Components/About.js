@@ -6,7 +6,7 @@ class About extends Component {
             <div style={{backgroundColor:"#070A1A"}}>
                 <div className="about">
                         <div className="aboutus">ABOUT US</div>
-                        <div style={{textAlign:"justify",color:"white",fontSize:"16px"}}>
+                        <div className="container" style={{textAlign:"justify",color:"white",fontSize:"16px"}}>
                         Students for the Exploration and Development of Space was
                          founded in 1980 at MIT by Peter Diamandis, Princeton University
                           by Scott Scharfman, and Yale University by Richard Sorkin, and
