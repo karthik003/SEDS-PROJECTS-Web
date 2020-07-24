@@ -30,7 +30,7 @@ class Landingpage extends Component {
                         <span className="social"><Link to="/instagram" ><FontAwesomeIcon icon={['fab', 'instagram']} size="2x"style={{color:"white"}} alt="instagram"/></Link></span>
                         <span className="social"><Link to="/facebook" ><FontAwesomeIcon icon={['fab', 'facebook']} size="2x"style={{color:"white"}} alt="facebook"/></Link></span>
                         <span className="social"><Link to="/linkedin" ><FontAwesomeIcon icon={['fab', 'linkedin']}  size="2x"style={{color:"white"}}alt="linkedin"/></Link></span>
-                        <span className="social"><Link to="/linkedin" ><FontAwesomeIcon icon={['fab', 'youtube']}  size="2x"style={{color:"white"}} alt="youtube"/></Link></span>
+                        <span className="social"><Link to="/youtube" ><FontAwesomeIcon icon={['fab', 'youtube']}  size="2x"style={{color:"white"}} alt="youtube"/></Link></span>
                     </div>
                     </Bounce>
                     <Switch>
