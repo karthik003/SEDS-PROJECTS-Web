@@ -10,8 +10,8 @@ class Footer extends Component {
                             <div class="row justify-content-center ">
 
                                 <div class="col-md-8 col-12 mt-5">
-                                    <p style={{lineHeight:"1.7rem",textAlign:"justify",margin:"0 10px 0 10px",wordSpacing:"-2.5px"}}>Student's for the Exploration and Development of Space (SEDS) is an international student organisation.
-                                     The headquarters of SEDS-India, is SEDS-VIT. It comprises of various divisions,
+                                    <p style={{lineHeight:"1.7rem",textAlign:"justify",margin:"0 10px 0 10px",wordSpacing:"2.5px"}}>Student's for the Exploration and Development of Space (SEDS) is an international student organisation.
+                                     The headquarters of SEDS-India is SEDS-VIT. It comprises of various divisions,
                                       to ensure growth and development in various fields of space sciences with an amazing expertise.</p>
                                 </div>
 
