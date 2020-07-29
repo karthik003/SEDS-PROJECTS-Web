@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { BrowserRouter as Router,Link } from "react-router-dom";
+import { BrowserRouter as Router,Link,Route, Switch } from "react-router-dom";
 class Footer extends Component {
     render() {
         return (
@@ -28,6 +28,13 @@ class Footer extends Component {
                                           <span className="mr-4"><Link to="/facebook" ><FontAwesomeIcon icon={['fab', 'facebook']} size="2x"style={{color:"white"}} alt="instagram"/></Link></span>
                                           <span className="mr-4"><Link to="/linkedin" ><FontAwesomeIcon icon={['fab', 'linkedin']} size="2x"style={{color:"white"}} alt="instagram"/></Link></span>
                                           <span className="mr-4"><Link to="/youtube" ><FontAwesomeIcon icon={['fab', 'youtube']} size="2x"style={{color:"white"}} alt="instagram"/></Link></span>
+
+                                          <Switch>
+                                            <Route exact path='/instagram' component={() => { window.location.href = 'https://instagram.com/sedsvit.projects?igshid=7ra3dgayhwll';return null;}}/>
+                                            <Route exact path='/facebook' component={() => { window.location.href = 'https://www.facebook.com/sedsvit.projects/';return null;}}/>
+                                            <Route exact path='/linkedin' component={() => { window.location.href = 'https://www.linkedin.com/company/sedsvit-projects';return null;}}/>
+                                            <Route exact path='/youtube' component={() => { window.location.href = 'https://www.youtube.com/channel/UCvD51YDPQT0Vs3r_Fcthurw';return null;}}/>
+                                          </Switch>
                                         </Router>
 
                                     </div>
@@ -35,9 +42,13 @@ class Footer extends Component {
                                 </div>
 
                             </div>
-
-                            <div class="footer-copyright text-center py-3" style={{width:"100%",marginBottom:"0px"}} >Made with <span role="img">💖</span> by SEDS VIT PROJECTS x VJK
-                            </div>
+                            <Router>
+                                <div class="footer-copyright text-center py-3" style={{width:"100%",marginBottom:"0px"}} >Made with <span role="img">💖</span> by SEDS VIT PROJECTS x<span><Link to="/vjk"> &nbsp;VJK</Link></span>
+                                </div>
+                                <Switch>
+                                <Route exact path='/vjk' component={() => { window.location.href = 'https://instagram.com/v.j._karthik';return null;}}/>
+                                </Switch>
+                            </Router>
 
                             </div>
             </>
