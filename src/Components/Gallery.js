@@ -10,7 +10,8 @@ import './Gallery.css'
 class Gallery extends Component {
     render() {
         return (
-            <div class="jumbotron container" style={{width:"75%",backgroundColor:"#070A1A",marginBottom:"0px"}}><br />
+            <div>
+            <div className="jumbotron container" style={{width:"75%",backgroundColor:"#070A1A",marginBottom:"0px"}}><br />
              <h1 className="text gallery" >GALLERY</h1>
               <br /><br /><br />
              <Carousel >
@@ -31,6 +32,7 @@ class Gallery extends Component {
                 </div>
                 
             </Carousel>
+            </div>
             </div>
         )
     }

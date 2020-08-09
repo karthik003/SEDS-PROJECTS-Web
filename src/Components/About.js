@@ -3,9 +3,9 @@ import './About.css';
 class About extends Component {
     render() {
         return (
-            <div style={{backgroundColor:"#070A1A"}}>
-                <div className="about">
-                        <div className="aboutus">ABOUT US</div>
+            <div className="bg" style={{backgroundColor:"#070A1A"}}>
+                <div style={{paddingTop:"150px"}}>
+                        <div className="aboutus" >ABOUT US</div>
                         <div className="container" style={{textAlign:"justify",color:"white",fontSize:"16px"}}>
                         Students for the Exploration and Development of Space was
                          founded in 1980 at MIT by Peter Diamandis, Princeton University
