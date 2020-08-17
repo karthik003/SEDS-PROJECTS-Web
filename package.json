@@ -36,7 +36,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
-    "react-typing-effect": "^2.0.3"
+    "react-typing-effect": "^2.0.3",
+    "serve": "^11.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,7 +47,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "server": "node-env-run server --exec nodemon",
-    "dev": "run-p server start"
+    "dev": "run-p server start",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
