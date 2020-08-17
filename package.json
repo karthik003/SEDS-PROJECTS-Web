@@ -46,7 +46,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "server": "node-env-run server --exec nodemon",
-    "dev": "run-p server start",
+    "dev": "run-p server start"
   },
   "eslintConfig": {
     "extends": "react-app"
