@@ -3,21 +3,21 @@ import { Row } from 'react-bootstrap';
 import ardra from '../Assets/ardra(notext).png';
 import './Board.css';
 import Boardmember from './Boardmember';
-import cap from '../Assets/c.jpg';
-import vc from '../Assets/vc.jpg';
-import f from '../Assets/f.jpg';
-import eh from '../Assets/eh.jpg';
-import ech1 from '../Assets/ech1.jpg';
-import ech2 from '../Assets/ech2.JPG';
-import csh from '../Assets/csh.jpg';
-import csch from '../Assets/csch.jpg';
-import mh from '../Assets/mh.JPG';
+import cap from '../Assets/c.png';
+import vc from '../Assets/vc.png';
+import f from '../Assets/f.png';
+import eh from '../Assets/eh.png';
+import ech1 from '../Assets/ech1.png';
+import ech2 from '../Assets/ech2.png';
+import csh from '../Assets/csh.png';
+import csch from '../Assets/csch.png';
+import mh from '../Assets/mh.png';
 import mch from '../Assets/mch.png';
-import mgh from '../Assets/mgh.jpg';
+import mgh from '../Assets/mgh.png';
 import mgch from '../Assets/mgch.png';
-import rdh from '../Assets/rdh.jpg';
+import rdh from '../Assets/rdh.png';
 import rdch1 from '../Assets/rdch1.jpg';
-import rdch2 from '../Assets/rdch2.jpg';
+import rdch2 from '../Assets/rdch2.png';
 
 class Board extends Component {
     render() {

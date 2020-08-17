@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import drone from '../Assets/drone.png';
-import drone2 from '../Assets/drone2.jpg';
+import drone2 from '../Assets/drone2.png';
 import drone3 from '../Assets/drone3.png';
 import rover from '../Assets/rover.png';
 import rover2 from '../Assets/rover2.png';
