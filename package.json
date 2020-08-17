@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://vitprojects.sedsindia.org",
+  "homepage": "https://sedsprojects1.herokuapp.com",
   "engines": {
     "node": "12.x"
   },
