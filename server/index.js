@@ -1,12 +1,9 @@
-  
 const express = require('express');
-const bodyParser = require('body-parser');
-const pino = require('express-pino-logger')();
+const os = require('os');
 
 const app = express();
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(pino);
 
-app.listen(process.env.PORT || 3001, () =>
-  console.log('Express server is running on localhost:3001')
-);
+app.use(express.static('dist'));
+app.get('/api/getUsername', (req, res) => res.send({ username: os.userInfo().username }));
+
+app.listen(process.env.PORT || 8080, () => console.log(`Listening on port ${process.env.PORT || 8080}!`));
