@@ -2,13 +2,7 @@
     font-family: "Orbitron";
     src: url("../Fonts/Orbitron/Orbitron-VariableFont_wght.ttf");
 }
-.bg{
-  background-image: url('../Assets/topbg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 
-}
 
 .aboutus{
     color:white;
