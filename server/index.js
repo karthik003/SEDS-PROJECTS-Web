@@ -1,8 +1,11 @@
+  
 const express = require('express');
-const os = require('os');
+const bodyParser = require('body-parser');
+const pino = require('express-pino-logger')();
 
 const app = express();
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(pino);
 
-app.use(express.static('dist'));
 
 app.listen(process.env.PORT || 8080, () => console.log(`Listening on port ${process.env.PORT || 8080}!`));
