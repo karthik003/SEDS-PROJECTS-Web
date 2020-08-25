@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { BrowserRouter as Router,Link,Route, Switch } from "react-router-dom";
+import './Footer.css'
 class Footer extends Component {
     render() {
         return (
-            <>
-                 <div class="jumbotron" style={{color:"white",marginBottom:"0px",width:"100%",backgroundColor:"#070A1A"}}>
-
+            <div  >
+                
+                 <div class="jumbotron bg1" style={{color:"white",marginBottom:"0px",width:"100%"}}>
                             <div class="row justify-content-center ">
 
                                 <div class="col-md-8 col-12 mt-5">
@@ -43,7 +44,7 @@ class Footer extends Component {
 
                             </div>
                             <Router>
-                                <div class="footer-copyright text-center py-3" style={{width:"100%",marginBottom:"0px"}} >Made with <span role="img">💖</span> by SEDS VIT PROJECTS x<span><Link to="/vjk"> &nbsp;VJK</Link></span>
+                                <div class="footer-copyright text-center py-3" style={{width:"100%",marginBottom:"0px"}} >Made with <span role="img">💖</span> by SEDS VIT PROJECTS x &nbsp;<span><Link to="/vjk">VJK</Link></span>
                                 </div>
                                 <Switch>
                                 <Route exact path='/vjk' component={() => { window.location.href = 'https://instagram.com/v.j._karthik';return null;}}/>
@@ -51,7 +52,7 @@ class Footer extends Component {
                             </Router>
 
                             </div>
-            </>
+            </div>
         )
     }
 }

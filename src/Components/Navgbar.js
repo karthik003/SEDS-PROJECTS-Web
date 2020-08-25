@@ -36,12 +36,12 @@ class Navgbar extends Component {
     render() {
         return (
             <div>  
-            <Navbar collapseOnSelect expand="lg" fixed="top" style={{backgroundColor: `${this.state.navBackground}`}} className="navbarcol shadow-lg "> 
+            <Navbar collapseOnSelect expand="lg" fixed="top"   style={{backgroundColor: `${this.state.navBackground}`}} className="navbarcol shadow-lg  navbar-light"> 
                 <Navbar.Brand href="#home" style={{height:"100%"}}>
                 <Link activeClass="" to="landing" spy={true} smooth={true}duration={500}> <img  src={seds} style={{width:"100px"}} alt="seds logo"/> </Link>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse className="col-md-pull-3" id="responsive-navbar-nav"style={{justifyContent:"center",position:"relative",right:"3%"}}>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav " />
+                <Navbar.Collapse className="col-md-pull-3  navbar-light" id="responsive-navbar-nav"style={{justifyContent:"center",position:"relative",right:"3%"}}>
                 <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"19px",fontWeight:"700"}}><Link activeClass="active1" to="landing" spy={true} smooth={true}duration={500}> HOME</Link></Nav.Link>
                 <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"19px",fontWeight:"700"}}><Link activeClass="active2" to="about" spy={true} smooth={true}duration={500} > ABOUT</Link></Nav.Link>
                 <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"19px",fontWeight:"700"}}><Link activeClass="active3" to="teams" spy={true} smooth={true}duration={500} > TEAMS</Link></Nav.Link>
@@ -51,7 +51,7 @@ class Navgbar extends Component {
                 </Navbar>
                
                 <div id="landing" style={{backgroundColor:"#070A1A"}}><Landingpage /></div>
-                <div id="about" style={{backgroundColor:"#070A1A"}}><br /><br /><br /><br /><br /><About /></div>
+                <div id="about" style={{backgroundColor:"#070A1A"}}><About /></div>
                 <div id="teams" style={{backgroundColor:"#070A1A"}}><br /><Teams /></div>
                 <div id="conquests" style={{backgroundColor:"#070A1A"}}><br /><Gallery /></div>
                 <div id="board" style={{backgroundColor:"#070A1A"}}><br /><br /><Board /></div>
