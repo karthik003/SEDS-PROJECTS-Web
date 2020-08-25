@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ccfe9540b60b518e5a8cc47264ee46a7",
+    "revision": "2ee9e6b081cf8a12b5b1ae2c3ad16160",
     "url": "/SEDS-PROJECTS-Web/index.html"
   },
   {
-    "revision": "e7a352706e9912445a2a",
+    "revision": "f4bdad1c4e43db6492c3",
     "url": "/SEDS-PROJECTS-Web/static/css/2.0a9eabb4.chunk.css"
   },
   {
-    "revision": "c4d14993b949341b51f4",
-    "url": "/SEDS-PROJECTS-Web/static/css/main.e5fbafc3.chunk.css"
+    "revision": "7cad0e0d77201d37e7e1",
+    "url": "/SEDS-PROJECTS-Web/static/css/main.981d1758.chunk.css"
   },
   {
-    "revision": "e7a352706e9912445a2a",
-    "url": "/SEDS-PROJECTS-Web/static/js/2.b20eb801.chunk.js"
+    "revision": "f4bdad1c4e43db6492c3",
+    "url": "/SEDS-PROJECTS-Web/static/js/2.5107db93.chunk.js"
   },
   {
     "revision": "76230a43b9d169e844f65f236293bc8f",
-    "url": "/SEDS-PROJECTS-Web/static/js/2.b20eb801.chunk.js.LICENSE.txt"
+    "url": "/SEDS-PROJECTS-Web/static/js/2.5107db93.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4d14993b949341b51f4",
-    "url": "/SEDS-PROJECTS-Web/static/js/main.e6b24daa.chunk.js"
+    "revision": "7cad0e0d77201d37e7e1",
+    "url": "/SEDS-PROJECTS-Web/static/js/main.9d31e8b8.chunk.js"
   },
   {
     "revision": "7def09d9a008e7520739",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a4d9ea17d4d4e1df18c86e01acb18f81",
     "url": "/SEDS-PROJECTS-Web/static/media/ardra(notext).a4d9ea17.png"
+  },
+  {
+    "revision": "b7b5a76892b27a9af7b9c0a0fe9cba99",
+    "url": "/SEDS-PROJECTS-Web/static/media/bottombg.b7b5a768.png"
   },
   {
     "revision": "b8ef462192271fc1e235e45e738d930c",
@@ -122,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ad5f1291e69337dcddff0f542bf41111",
     "url": "/SEDS-PROJECTS-Web/static/media/sky3.ad5f1291.jpg"
+  },
+  {
+    "revision": "5378b1b45cb0e62aac7c668ca8b77153",
+    "url": "/SEDS-PROJECTS-Web/static/media/topbg.5378b1b4.png"
   },
   {
     "revision": "f4601ce893daa2067a1f97dcb0db9a1a",
