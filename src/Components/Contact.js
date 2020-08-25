@@ -63,7 +63,6 @@ class Contact extends Component {
                                 </Form.Text>
                             </Form.Group>
 
-
                             <Form.Group controlId="formBasicPhone">
                                 <Form.Label style={{color:"white"}}>Phone Number</Form.Label>
                                 <Form.Control type="integer" placeholder="Phone Number" name="phone" value={phone} onChange={this.changeHandler}/>
