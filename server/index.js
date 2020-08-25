@@ -8,4 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(pino);
 
 
-app.listen(process.env.PORT || 8080, () => console.log(`Listening on port ${process.env.PORT || 8080}!`));
+app.listen(process.env.PORT || 8080, () =>
+  console.log(`Listening on port ${process.env.PORT || 8080}!`)
+);
+
