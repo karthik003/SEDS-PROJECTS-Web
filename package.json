@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://vitprojects.sedsindia.org",
+<<<<<<< HEAD
   "engines": {
     "node": "12.x"
   },
+=======
+>>>>>>> parent of a14bd9a... tiny idk
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
