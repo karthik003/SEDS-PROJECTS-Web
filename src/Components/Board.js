@@ -44,7 +44,7 @@ class Board extends Component {
                     {/* <Row style={{margin:"0 5% 0 5%",justifyContent:"center"}} >
                     <Boardmember image={mh} instagram='/instamech' linkedin="/linkmh"name="Pratush Sidar" position="MECHANICAL HEAD"/>
                     {/* <Boardmember image={mch} instagram='/instamechco'linkedin="/linkmch" name="Aditya Murali" position="MECHANICAL CO-HEAD"/> */}
-                    <Boardmember image={rdh} instagram='/instarad'linkedin="/linkrdh" name="Darshan Ram" position="R&D HEAD"/>
+                    {/* <Boardmember image={rdh} instagram='/instarad'linkedin="/linkrdh" name="Darshan Ram" position="R&D HEAD"/> */}
                     {/* <Boardmember image={rdch1} instagram='/instaradco1'linkedin="/linkrdch1" name="V.J.Karthik" position="R&D CO-HEAD"/> */}
                     {/* <Boardmember image={rdch2} instagram='/instaradco2' linkedin="/linkrdch2"name="Aditya Ray" position="R&D CO-HEAD"/> */}
                     
