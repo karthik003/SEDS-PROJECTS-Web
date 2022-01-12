@@ -26,8 +26,8 @@ class Board extends Component {
                  <h1 className="text board" >THE BOARD</h1>
                 <br /><br /><br />
                 <Row style={{margin:"0 5% 0 5%",justifyContent:"center"}} >
-                        <Boardmember image={cap} instagram="/instacap" linkedin="/linkcap" name="Shashvat Shukla" position="CAPTAIN"/>
-                        <Boardmember image={vc} instagram='/instavicecap'linkedin="/linkvc" name="Asutosh Dalei" position="VICE CAPTAIN"/>
+                        <Boardmember image={cap} instagram="/instacap" linkedin="/linkcap" name="Adit Kirtani" position="CAPTAIN"/>
+                        <Boardmember image={vc} instagram='/instavicecap'linkedin="/linkvc" name="Abhishek" position="VICE CAPTAIN"/>
                         <Boardmember image={f} instagram='/instafinance' linkedin="/linkf" name="Akalpit Dawkhar" position="FINANCE HEAD"/>
                         <Boardmember image={mgh} instagram='/instamgmt' linkedin="/linkmgh" name="Shivika Bisaria" position="MANAGEMENT HEAD"/>
                         <Boardmember image={mgch} instagram='/instamgmtco' linkedin="/linkmgch" name="Aehsas Mathur" position="MANAGEMENT CO-HEAD"/>
