@@ -14,10 +14,10 @@ import csch from '../Assets/csch.png';
 import mh from '../Assets/mh.png';
 import mch from '../Assets/mch.png';
 import mgh from '../Assets/mgh.png';
-import mgch from '../Assets/mgch.png';
+// import mgch from '../Assets/mgch.png';
 import rdh from '../Assets/rdh.png';
-import rdch1 from '../Assets/rdch1.jpg';
-import rdch2 from '../Assets/rdch2.png';
+// import rdch1 from '../Assets/rdch1.jpg';
+// import rdch2 from '../Assets/rdch2.png';
 
 class Board extends Component {
     render() {
@@ -33,7 +33,7 @@ class Board extends Component {
                         {/* <Boardmember image={mgch} instagram='/instamgmtco' linkedin="/linkmgch" name="Aehsas Mathur" position="MANAGEMENT CO-HEAD"/> */}
                     </Row>
                     <Row style={{margin:"0 5% 0 5%",justifyContent:"center"}} >
-                    <Boardmember image={csh} instagram='/instasoftware' linkedin="/linkcsh"name="Roopesh A" position="SOFTWARE HEAD"/>
+                    <Boardmember image={csh} instagram='/instasoftware' linkedin="/linkcsh"name="Sushant Srivastav" position="SOFTWARE HEAD"/>
                     {/* <Boardmember image={csch} instagram='/instasoftwareco' linkedin="/linkcsch"name="Shaolin Kataria" position="SOFTWARE CO-HEAD"/> */}
                     <Boardmember image={eh} instagram='/instaele' linkedin="/linkeh"name="Shwetanshu Singh" position="ELECTRICAL HEAD"/>
                     {/* <Boardmember image={ech1} instagram='/instaeleco1' linkedin="/linkech1"name="Dhruv Shah" position="ELECTRICAL CO-HEAD"/> */}

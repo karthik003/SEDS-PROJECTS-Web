@@ -26,21 +26,21 @@ class Boardmember extends Component {
                                             </Row>
                                             <Switch>
                                                 {/*Board Instagram Handles */}
-                                            <Route path='/instacap' component={() => { window.location.href = 'https://www.instagram.com/shas._.hwat/';return null;}}/>
+                                            <Route path='/instacap' component={() => { window.location.href = 'https://www.instagram.com/adit.kirtani/';return null;}}/>
                                             <Route path='/instavicecap' component={() => { window.location.href = 'https://www.instagram.com/asutosh.dalei/';return null;}}/>
                                             <Route path='/instafinance' component={() => { window.location.href = 'https://www.instagram.com/akalpit_23/';return null;}}/>
                                             <Route path='/instamgmt' component={() => { window.location.href = 'https://www.instagram.com/shivikabisaria/';return null;}}/>
                                             <Route path='/instamgmtco' component={() => { window.location.href = 'https://www.instagram.com/aehsas_mathur/';return null;}}/>
-                                            <Route path='/instasoftware' component={() => { window.location.href = 'https://www.instagram.com/roopesh_01/';return null;}}/>
+                                            <Route path='/instasoftware' component={() => { window.location.href = 'https://www.instagram.com/iamsushant.sri/';return null;}}/>
                                             <Route path='/instasoftwareco' component={() => { window.location.href = 'https://www.instagram.com/shaolinkataria/';return null;}}/>
                                             <Route path='/instaele' component={() => { window.location.href = 'https://www.instagram.com/_shwe.0300/';return null;}}/>
-                                            <Route path='/instaeleco1' component={() => { window.location.href = 'https://www.instagram.com/dhruvshah2703/';return null;}}/>
-                                            <Route path='/instaeleco2' component={() => { window.location.href = 'https://www.instagram.com/qwertylonewolf117/';return null;}}/>
+                                            {/* <Route path='/instaeleco1' component={() => { window.location.href = 'https://www.instagram.com/dhruvshah2703/';return null;}}/>
+                                            <Route path='/instaeleco2' component={() => { window.location.href = 'https://www.instagram.com/qwertylonewolf117/';return null;}}/> */}
                                             <Route path='/instamech' component={() => { window.location.href = 'https://www.instagram.com/pratushsidar_/';return null;}}/>
                                             <Route path='/instamechco' component={() => { window.location.href = 'https://www.instagram.com/adityamurali4/';return null;}}/>
                                             <Route path='/instarad' component={() => { window.location.href = 'https://www.instagram.com/darsholeram/';return null;}}/>
-                                            <Route path='/instaradco1' component={() => { window.location.href = 'https://www.instagram.com/v.j._karthik/';return null;}}/>
-                                            <Route path='/instaradco2' component={() => { window.location.href = 'https://www.instagram.com/adityaray826/';return null;}}/>
+                                            {/* <Route path='/instaradco1' component={() => { window.location.href = 'https://www.instagram.com/v.j._karthik/';return null;}}/>
+                                            <Route path='/instaradco2' component={() => { window.location.href = 'https://www.instagram.com/adityaray826/';return null;}}/> */}
 
                                                 {/*Board Linkedin Handles */}
                                             <Route path='/linkcap' component={() => { window.location.href = 'https://www.linkedin.com/in/shashwat-shukla-b8aa44192';return null;}}/>
@@ -48,16 +48,16 @@ class Boardmember extends Component {
                                             <Route path='/linkf' component={() => { window.location.href = 'https://www.linkedin.com/in/akalpit-dawkhar-942584179';return null;}}/>
                                             <Route path='/linkmgh' component={() => { window.location.href = 'https://in.linkedin.com/in/shivika-bisaria';return null;}}/>
                                             <Route path='/linkmgch' component={() => { window.location.href = 'https://www.linkedin.com/in/aehsas-mathur-192362196';return null;}}/>
-                                            <Route path='/linkcsh' component={() => { window.location.href = 'https://www.linkedin.com/in/arvapalli-roopesh-3835711a2';return null;}}/>
-                                            <Route path='/linkcsch' component={() => { window.location.href = 'https://www.linkedin.com/in/shaolink';return null;}}/>
+                                            <Route path='/linkcsh' component={() => { window.location.href = 'https://linkedin.com/in/sushant4191';return null;}}/>
+                                            {/* <Route path='/linkcsch' component={() => { window.location.href = 'https://www.linkedin.com/in/shaolink';return null;}}/> */}
                                             <Route path='/linkeh' component={() => { window.location.href = 'https://www.linkedin.com/in/shwetanshu-6422a4190';return null;}}/>
                                             <Route path='/linkech1' component={() => { window.location.href = 'https://www.linkedin.com/in/dhruv-shah-87a7a6179';return null;}}/>
                                             <Route path='/linkech2' component={() => { window.location.href = 'https://www.linkedin.com/in/karthik-rajesh-3940ab1a3/';return null;}}/>
                                             <Route path='/linkmh' component={() => { window.location.href = 'https://www.linkedin.com/in/pratush-sidar-152470191/';return null;}}/>
                                             <Route path='/linkmch' component={() => { window.location.href = 'https://www.linkedin.com/in/aditya-muralidharan-32b9a21a2';return null;}}/>
                                             <Route path='/linkrdh' component={() => { window.location.href = 'https://www.linkedin.com/in/darshan-ram-3b95b867';return null;}}/>
-                                            <Route path='/linkrdch1' component={() => { window.location.href = 'https://www.linkedin.com/in/karthik-v-j-737726169/';return null;}}/>
-                                            <Route path='/linkrdch2' component={() => { window.location.href = 'https://www.linkedin.com/in/aditya-ray-bba61017b';return null;}}/>
+                                            {/* <Route path='/linkrdch1' component={() => { window.location.href = 'https://www.linkedin.com/in/karthik-v-j-737726169/';return null;}}/>
+                                            <Route path='/linkrdch2' component={() => { window.location.href = 'https://www.linkedin.com/in/aditya-ray-bba61017b';return null;}}/> */}
 
                                             </Switch>
                                             </Router>
