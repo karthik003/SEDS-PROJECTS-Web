@@ -7,12 +7,12 @@ import cap from '../Assets/c.png';
 import vc from '../Assets/vc.png';
 import f from '../Assets/f.png';
 import eh from '../Assets/eh.png';
-import ech1 from '../Assets/ech1.png';
-import ech2 from '../Assets/ech2.png';
+// import ech1 from '../Assets/ech1.png';
+// import ech2 from '../Assets/ech2.png';
 import csh from '../Assets/csh.png';
-import csch from '../Assets/csch.png';
+// import csch from '../Assets/csch.png';
 import mh from '../Assets/mh.png';
-import mch from '../Assets/mch.png';
+// import mch from '../Assets/mch.png';
 import mgh from '../Assets/mgh.png';
 // import mgch from '../Assets/mgch.png';
 import rdh from '../Assets/rdh.png';
@@ -38,7 +38,7 @@ class Board extends Component {
                     <Boardmember image={eh} instagram='/instaele' linkedin="/linkeh"name="Shwetanshu Singh" position="ELECTRICAL HEAD"/>
                     {/* <Boardmember image={ech1} instagram='/instaeleco1' linkedin="/linkech1"name="Dhruv Shah" position="ELECTRICAL CO-HEAD"/> */}
                     {/* <Boardmember image={ech2} instagram='/instaeleco2' linkedin="/linkech2"name="Karthik Rajesh" position="ELECTRICAL CO-HEAD"/> */}
-                    <Boardmember image={mh} instagram='/instamech' linkedin="/linkmh"name="Pratush Sidar" position="MECHANICAL HEAD"/>
+                    <Boardmember image={mh} instagram='/instamech' linkedin="/linkmh"name="Tushar" position="MECHANICAL HEAD"/>
                     <Boardmember image={rdh} instagram='/instarad'linkedin="/linkrdh" name="Darshan Ram" position="R&D HEAD"/>
                     </Row>
                     {/* <Row style={{margin:"0 5% 0 5%",justifyContent:"center"}} >
@@ -46,7 +46,6 @@ class Board extends Component {
                     {/* <Boardmember image={mch} instagram='/instamechco'linkedin="/linkmch" name="Aditya Murali" position="MECHANICAL CO-HEAD"/> */}
                     {/* <Boardmember image={rdh} instagram='/instarad'linkedin="/linkrdh" name="Darshan Ram" position="R&D HEAD"/> */}
                     {/* <Boardmember image={rdch1} instagram='/instaradco1'linkedin="/linkrdch1" name="V.J.Karthik" position="R&D CO-HEAD"/> */}
-                    {/* <Boardmember image={rdch2} instagram='/instaradco2' linkedin="/linkrdch2"name="Aditya Ray" position="R&D CO-HEAD"/> */}
                     
             </div>
         )

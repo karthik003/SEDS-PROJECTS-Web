@@ -39,27 +39,22 @@ class Boardmember extends Component {
                                             <Route path='/instamech' component={() => { window.location.href = 'https://www.instagram.com/pratushsidar_/';return null;}}/>
                                             <Route path='/instamechco' component={() => { window.location.href = 'https://www.instagram.com/adityamurali4/';return null;}}/>
                                             <Route path='/instarad' component={() => { window.location.href = 'https://www.instagram.com/darsholeram/';return null;}}/>
-                                            {/* <Route path='/instaradco1' component={() => { window.location.href = 'https://www.instagram.com/v.j._karthik/';return null;}}/>
-                                            <Route path='/instaradco2' component={() => { window.location.href = 'https://www.instagram.com/adityaray826/';return null;}}/> */}
+                                     
 
                                                 {/*Board Linkedin Handles */}
                                             <Route path='/linkcap' component={() => { window.location.href = 'https://www.linkedin.com/in/shashwat-shukla-b8aa44192';return null;}}/>
                                             <Route path='/linkvc' component={() => { window.location.href = 'https://linkedin.com/in/asutosh-dalei2212';return null;}}/>
                                             <Route path='/linkf' component={() => { window.location.href = 'https://www.linkedin.com/in/akalpit-dawkhar-942584179';return null;}}/>
                                             <Route path='/linkmgh' component={() => { window.location.href = 'https://in.linkedin.com/in/shivika-bisaria';return null;}}/>
-                                            <Route path='/linkmgch' component={() => { window.location.href = 'https://www.linkedin.com/in/aehsas-mathur-192362196';return null;}}/>
+                                            {/* <Route path='/linkmgch' component={() => { window.location.href = 'https://www.linkedin.com/in/aehsas-mathur-192362196';return null;}}/> */}
                                             <Route path='/linkcsh' component={() => { window.location.href = 'https://linkedin.com/in/sushant4191';return null;}}/>
                                             {/* <Route path='/linkcsch' component={() => { window.location.href = 'https://www.linkedin.com/in/shaolink';return null;}}/> */}
                                             <Route path='/linkeh' component={() => { window.location.href = 'https://www.linkedin.com/in/shwetanshu-6422a4190';return null;}}/>
-                                            {/* <Route path='/linkech1' component={() => { window.location.href = 'https://www.linkedin.com/in/dhruv-shah-87a7a6179';return null;}}/>
-                                            <Route path='/linkech2' component={() => { window.location.href = 'https://www.linkedin.com/in/karthik-rajesh-3940ab1a3/';return null;}}/> */}
-
+                                           
                                             <Route path='/linkmh' component={() => { window.location.href = 'https://www.linkedin.com/in/pratush-sidar-152470191/';return null;}}/>
 
-                                            {/* <Route path='/linkmch' component={() => { window.location.href = 'https://www.linkedin.com/in/aditya-muralidharan-32b9a21a2';return null;}}/> */}
                                             <Route path='/linkrdh' component={() => { window.location.href = 'https://www.linkedin.com/in/darshan-ram-3b95b867';return null;}}/>
-                                            {/* <Route path='/linkrdch1' component={() => { window.location.href = 'https://www.linkedin.com/in/karthik-v-j-737726169/';return null;}}/>
-                                            <Route path='/linkrdch2' component={() => { window.location.href = 'https://www.linkedin.com/in/aditya-ray-bba61017b';return null;}}/> */}
+                                        
 
                                             </Switch>
                                             </Router>
