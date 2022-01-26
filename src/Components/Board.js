@@ -39,7 +39,7 @@ class Board extends Component {
                     {/* <Boardmember image={ech1} instagram='/instaeleco1' linkedin="/linkech1"name="Dhruv Shah" position="ELECTRICAL CO-HEAD"/> */}
           
                     <Boardmember image={mh} instagram='/instamech' linkedin="/linkmh"name="Tushar Singh" position="MECHANICAL HEAD"/>
-                    <Boardmember image={rdh} instagram='/instarad'linkedin="/linkrdh" name="K Viswanath" position="R&D HEAD"/>
+                    <Boardmember image={rdh} instagram='/instarad'linkedin="/linkrdh" name="K Vishwanath" position="R&D HEAD"/>
                     </Row>
                     {/* <Row style={{margin:"0 5% 0 5%",justifyContent:"center"}} >
                     {/* <Boardmember image={rdh} instagram='/instarad'linkedin="/linkrdh" name="Darshan Ram" position="R&D HEAD"/> */}
