@@ -48,7 +48,6 @@ class Boardmember extends Component {
                                             <Route path='/linkmgh' component={() => { window.location.href = 'https://www.linkedin.com/in/akshad-kumbhare-134a1819a/';return null;}}/>
                                             {/* <Route path='/linkmgch' component={() => { window.location.href = 'https://www.linkedin.com/in/aehsas-mathur-192362196';return null;}}/> */}
                                             <Route path='/linkcsh' component={() => { window.location.href = 'https://linkedin.com/in/sushant4191';return null;}}/>
-                                            {/* <Route path='/linkcsch' component={() => { window.location.href = 'https://www.linkedin.com/in/shaolink';return null;}}/> */}
                                             <Route path='/linkeh' component={() => { window.location.href = 'https://www.linkedin.com/in/dishika-poddar-1188a2176/';return null;}}/>
                                            
                                             <Route path='/linkmh' component={() => { window.location.href = '    https://www.linkedin.com/in/tushar-kumar-singh-659852192/';return null;}}/>
