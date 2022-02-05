@@ -47,6 +47,9 @@ class Navgbar extends Component {
                 <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"19px",fontWeight:"700"}}><Link activeClass="active3" to="teams" spy={true} smooth={true}duration={500} > TEAMS</Link></Nav.Link>
                 <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"19px",fontWeight:"700"}}><Link activeClass="active4" to="conquests" spy={true} smooth={true}duration={500}> GALLERY</Link></Nav.Link>
                 <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"19px",fontWeight:"700"}}><Link activeClass="active5" to="board" spy={true} smooth={true}duration={500} offset={-5} > BOARD</Link></Nav.Link>
+
+                <Nav.Link className="mr-1 text "  style={{color:"#F4F4F4",fontSize:"25px",fontWeight:"700",marginLeft:"10px"}}>
+                <a href="www.google.com"> Join the Team</a></Nav.Link>
                     </Navbar.Collapse>
                 </Navbar>
                
@@ -55,6 +58,7 @@ class Navgbar extends Component {
                 <div id="teams" style={{backgroundColor:"#070A1A"}}><br /><Teams /></div>
                 <div id="conquests" style={{backgroundColor:"#070A1A"}}><br /><Gallery /></div>
                 <div id="board" style={{backgroundColor:"#070A1A"}}><br /><br /><Board /></div>
+                {/* <div id="join" style={{backgroundColor:"#070A1A"}}><br /><Join the Team /></div> */}
                 <div id="contact" style={{backgroundColor:"#070A1A"}}><br /><br /><br /><br /><Contact /></div>
                 <Footer />
             </div>
